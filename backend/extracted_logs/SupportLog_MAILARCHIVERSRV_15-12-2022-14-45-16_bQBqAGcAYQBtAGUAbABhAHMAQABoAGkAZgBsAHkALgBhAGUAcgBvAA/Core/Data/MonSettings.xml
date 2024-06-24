@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <plugin>
+    <Name>Search Monitor</Name>
+    <Enabled>true</Enabled>
+    <Path>bin\MArc.Dashboard.SearchMonitor.dll</Path>
+    <Type>MArc.Dashboard.SearchMonitor.SearchMonitor</Type>
+    <Refresh>5</Refresh>
+  </plugin>
+  <plugin>
+    <Name>Store Monitor</Name>
+    <Enabled>true</Enabled>
+    <Path>bin\MArc.Dashboard.StoreMonitor.dll</Path>
+    <Type>MArc.Dashboard.StoreMonitor.StoreMonitor</Type>
+    <Refresh>5</Refresh>
+  </plugin>
+<plugin>
+    <Name>Servers Monitor</Name>
+    <Enabled>true</Enabled>
+    <Path>bin\MArc.Dashboard.ServersMonitor.dll</Path>
+    <Type>MArc.Dashboard.ServersMonitor.ServersMonitor</Type>
+    <Refresh>7</Refresh>
+  </plugin>
+  <plugin>
+    <Name>Version Monitor</Name>
+    <Enabled>true</Enabled>
+    <Path>bin\MArc.Dashboard.VersionMonitor.dll</Path>
+    <Type>MArc.Dashboard.VersionMonitor.VersionMonitor</Type>
+    <Refresh>5</Refresh>
+  </plugin>
+  <plugin>
+    <Name>DataSources Monitor</Name>
+    <Enabled>true</Enabled>
+    <Path>bin\MArc.Dashboard.DataSourcesMonitor.dll</Path>
+    <Type>MArc.Dashboard.DataSourcesMonitor.DataSourcesMonitor</Type>
+    <Refresh>0.5</Refresh>
+  </plugin>
+</plugins>

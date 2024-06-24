@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="yes"?>
+<SchedulerSettings xmlns="http://www.gfi.com/SchedulerSettings.xsd">
+  <Settings Interval="0.5" xmlns="" />
+</SchedulerSettings>

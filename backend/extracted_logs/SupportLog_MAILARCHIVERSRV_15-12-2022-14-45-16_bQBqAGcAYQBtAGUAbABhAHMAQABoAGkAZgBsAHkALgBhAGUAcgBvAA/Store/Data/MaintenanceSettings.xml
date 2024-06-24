@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MaintenanceSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Interval>1</Interval>
+  <InactiveDBRun>5</InactiveDBRun>
+  <UploadBatchSize>250</UploadBatchSize>
+  <DailyMaintenance>2022-12-15T23:00:00</DailyMaintenance>
+  <MaintenancePlugins>
+    <MaintenancePlugin Description="Email discussion thread construction and updates notification population">
+      <AssemblyName>bin\Store.Maintenance.Scheduler.exe</AssemblyName>
+      <ObjectName>Store.Maintenance.MessageMaintenance</ObjectName>
+      <MArc3Compliant>true</MArc3Compliant>
+    </MaintenancePlugin>
+    <MaintenancePlugin Description="Retention Policy Execution">
+      <AssemblyName>bin\Store.Retention.Maintenance.dll</AssemblyName>
+      <ObjectName>Store.Retention.Maintenance</ObjectName>
+      <MArc3Compliant>true</MArc3Compliant>
+    </MaintenancePlugin>
+    <MaintenancePlugin Description="File Retention Policy Execution">
+      <AssemblyName>bin\Store.Retention.Maintenance.dll</AssemblyName>
+      <ObjectName>Store.Retention.FileMaintenance</ObjectName>
+      <MArc3Compliant>true</MArc3Compliant>
+    </MaintenancePlugin>
+    <MaintenancePlugin Description="Store Cache Maintenance">
+      <AssemblyName>bin\Store.Cache.Maintenance.dll</AssemblyName>
+      <ObjectName>Store.Cache.Maintenance.Collector</ObjectName>
+      <MArc3Compliant>true</MArc3Compliant>
+    </MaintenancePlugin>
+  </MaintenancePlugins>
+</MaintenanceSettings>

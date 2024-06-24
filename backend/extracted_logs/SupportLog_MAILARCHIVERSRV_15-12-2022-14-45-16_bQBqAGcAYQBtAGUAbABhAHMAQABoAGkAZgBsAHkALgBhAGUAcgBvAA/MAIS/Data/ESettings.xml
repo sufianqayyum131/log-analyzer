@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="yes"?>
+<EnveloperSettings xmlns="http://www.gfi.com/MArc/EnveloperSettings.xsd">
+  <Settings Interval="0.5" MaxRequests="15"/>
+</EnveloperSettings>

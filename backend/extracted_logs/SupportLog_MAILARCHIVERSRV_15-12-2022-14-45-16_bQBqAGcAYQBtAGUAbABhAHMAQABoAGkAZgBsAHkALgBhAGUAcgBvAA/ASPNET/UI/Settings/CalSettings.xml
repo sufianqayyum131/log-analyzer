@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<languages>
+  <item>
+    <key>
+      <ComponentType>Calendar</ComponentType>
+    </key>
+    <value>
+      <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <string>*</string>
+      </ArrayOfString>
+    </value>
+  </item>
+  <item>
+    <key>
+      <ComponentType>Event</ComponentType>
+    </key>
+    <value>
+      <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <string>DTSTART</string>
+        <string>RECURRENCE-ID</string>
+        <string>RRULE</string>
+        <string>RDATE</string>
+        <string>EXDATE</string>
+        <string>SEQUENCE</string>
+        <string>UID</string>
+      </ArrayOfString>
+    </value>
+  </item>
+  <item>
+    <key>
+      <ComponentType>TimeZone</ComponentType>
+    </key>
+    <value>
+      <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <string>*</string>
+      </ArrayOfString>
+    </value>
+  </item>
+</languages>

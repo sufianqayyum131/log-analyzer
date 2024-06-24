@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportExportSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BETConnectFormURLList LatestURL="http://localhost/archiver">
+    <MArcURLList>
+      <string>http://localhost/Archiver</string>
+      <string>http://localhost/archiver</string>
+    </MArcURLList>
+  </BETConnectFormURLList>
+  <BETConnectFormCurrentLoggedInUser>true</BETConnectFormCurrentLoggedInUser>
+  <BETConnectFormUserName>it-root\copernico</BETConnectFormUserName>
+  <BETSearchOption>Mailbox</BETSearchOption>
+  <BETExportOption>DownloadToPST</BETExportOption>
+  <BETExportEmailAddress>psilva@hifly.aero</BETExportEmailAddress>
+  <BETExportSendAsOriginal>false</BETExportSendAsOriginal>
+  <BETExportEmailsPath />
+  <BETExportEmailType>EML</BETExportEmailType>
+  <BETExportPSTPath>C:\Users\chopin\Desktop\ver.pst</BETExportPSTPath>
+  <BETExportRetainFolderStructure>false</BETExportRetainFolderStructure>
+  <ExchangeConnectOnline>false</ExchangeConnectOnline>
+  <ExchangeConnect2003Server>true</ExchangeConnect2003Server>
+  <ExchangeConnect2013Server>false</ExchangeConnect2013Server>
+  <ExchangeConnectAsCurrent>true</ExchangeConnectAsCurrent>
+  <ExchangeConnectUsername>IT-ROOT\copernico</ExchangeConnectUsername>
+  <ExchangeConnectServerURL />
+  <ExchangeConnectUseSSL>false</ExchangeConnectUseSSL>
+  <ExchangeConnectExtractFrmPubFolders>false</ExchangeConnectExtractFrmPubFolders>
+  <ExchangeMBSelectionAllMailboxesAndFolders>true</ExchangeMBSelectionAllMailboxesAndFolders>
+  <ExchangeMBSelectionAllFoldersExport>true</ExchangeMBSelectionAllFoldersExport>
+  <ExchangeExportOptionsImportToMAR>true</ExchangeExportOptionsImportToMAR>
+  <ExchangeExportOptionsExporthPath />
+  <ExchangeExportOptionsDateFROM>2021-07-01T00:02:31</ExchangeExportOptionsDateFROM>
+  <ExchangeExportOptionsDateTO>2021-07-01T00:02:31</ExchangeExportOptionsDateTO>
+  <ExchangeExportOptionsFolderStructureExport>true</ExchangeExportOptionsFolderStructureExport>
+  <ExchangeExportOptionsIgnoreAlreadyProcessed>false</ExchangeExportOptionsIgnoreAlreadyProcessed>
+  <ExchangeExportOptionsDoNotMarkEmails>false</ExchangeExportOptionsDoNotMarkEmails>
+  <ExchangeExportOptionsClearEmailFlag>false</ExchangeExportOptionsClearEmailFlag>
+  <PSTExportOptionsImportToMAR>true</PSTExportOptionsImportToMAR>
+  <PSTExportOptionsExporthPath />
+  <PSTExportOptionsDateFROM>2021-07-01T00:02:31</PSTExportOptionsDateFROM>
+  <PSTExportOptionsDateTO>2021-07-01T00:02:31</PSTExportOptionsDateTO>
+  <PSTExportOptionsFolderStructureExport>true</PSTExportOptionsFolderStructureExport>
+  <PSTExportOptionsIgnoreAlreadyProcessed>false</PSTExportOptionsIgnoreAlreadyProcessed>
+  <PSTExportOptionsDoNotMarkEmails>false</PSTExportOptionsDoNotMarkEmails>
+  <PSTExportOptionsClearEmailFlag>false</PSTExportOptionsClearEmailFlag>
+</ImportExportSettings>

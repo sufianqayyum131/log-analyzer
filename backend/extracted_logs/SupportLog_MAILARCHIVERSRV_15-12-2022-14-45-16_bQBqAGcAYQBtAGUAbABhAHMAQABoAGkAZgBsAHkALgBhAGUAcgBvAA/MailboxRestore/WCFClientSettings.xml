@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WCFClientSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OperationTimeoutMinutes>5</OperationTimeoutMinutes>
+  <CheckIfServiceAliveSeconds>5</CheckIfServiceAliveSeconds>
+  <WCFServices>
+    <WCFServiceEndPoint ContractName="MArc.ConfigurationService.Base.ICSSettingsHolder" EndPoint="net.pipe://localhost/Core/CSService" />
+    <WCFServiceEndPoint ContractName="Store.Core.IEmailRetrieval" EndPoint="net.pipe://localhost/Store/CoreMessage" />
+    <WCFServiceEndPoint ContractName="Store.Core.IEmailMessageRetrieval" EndPoint="net.pipe://localhost/Store/EmailMessageRetrieval" />
+    <WCFServiceEndPoint ContractName="Store.Core.ISync" EndPoint="net.pipe://localhost/Store/EmailMessageRetrieval" />
+  </WCFServices>
+</WCFClientSettings>

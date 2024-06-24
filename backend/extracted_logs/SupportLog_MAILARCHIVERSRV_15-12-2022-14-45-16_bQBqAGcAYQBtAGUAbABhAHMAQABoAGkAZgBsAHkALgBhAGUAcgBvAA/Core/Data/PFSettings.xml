@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<PFSettings xmlns="http://www.gfi.com/PFSettings.xsd">
+  <ProviderBuilder Type="Imap">
+    <Path>bin\MArc.DataSources.Imap.dll</Path>
+    <BuilderObject>MArc.DS.ImapProviderBuilder</BuilderObject>
+  </ProviderBuilder>
+  <ProviderBuilder Type="ExOleDb">
+    <Path>bin\MArc.DataSources.ExOleDb.dll</Path>
+    <BuilderObject>MArc.DS.ExOleDbProviderBuilder</BuilderObject>
+  </ProviderBuilder>
+  <ProviderBuilder Type="EWS">
+    <Path>bin\MArc.DataSources.EWS.dll</Path>
+    <BuilderObject>MArc.DS.EWSProviderBuilder</BuilderObject>
+  </ProviderBuilder>
+</PFSettings>

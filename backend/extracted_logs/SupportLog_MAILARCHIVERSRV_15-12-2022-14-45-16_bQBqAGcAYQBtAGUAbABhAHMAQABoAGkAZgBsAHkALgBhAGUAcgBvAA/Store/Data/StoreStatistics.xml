@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StoreStatistics  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Statistic Name="Version" High="1" Low="0" RepCount="3" DaysTTL="1" Persist="false" LastValueOnly="true"/>
+  <Statistic Name="DBStatistics" High="1" Low="15" RepCount="15" DaysTTL="1" Persist="false" LastValueOnly="true"/>
+  <Statistic Name="DBHashCodes" High="2" Low="300" RepCount="5" DaysTTL="1" Persist="false" LastValueOnly="true"/>
+</StoreStatistics>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DalSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DalBuilders>
+    <DalBuilder Type="MsSql">
+      <Path>bin\Store.Dal.Provider.dll</Path>
+      <BuilderObject>Store.Dal.MsSqlEmailProvider</BuilderObject>
+    </DalBuilder>
+    <DalBuilder Type="FS">
+      <Path>bin\Store.Dal.Provider.dll</Path>
+      <BuilderObject>Store.Dal.FSEmailProvider</BuilderObject>
+    </DalBuilder>
+    <DalBuilder Type="FireBird">
+      <Path>bin\Store.Dal.Provider.dll</Path>
+      <BuilderObject>Store.Dal.FBEmailProvider</BuilderObject>
+    </DalBuilder>
+    <DalBuilder Type="MArc3">
+      <Path>bin\Store.Dal.Provider.dll</Path>
+      <BuilderObject>Store.Dal.MAR3MsSqlProvider</BuilderObject>
+    </DalBuilder>
+  </DalBuilders>
+</DalSettings>

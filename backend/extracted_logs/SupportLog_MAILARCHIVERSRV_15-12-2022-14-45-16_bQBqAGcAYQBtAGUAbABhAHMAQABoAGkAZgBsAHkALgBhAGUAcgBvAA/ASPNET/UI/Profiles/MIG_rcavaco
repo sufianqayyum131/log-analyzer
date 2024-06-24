@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProfileBag xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <userFolders>
+    <folders />
+  </userFolders>
+  <ResultsPP>50</ResultsPP>
+  <LastMailArchiverIAccessed>0</LastMailArchiverIAccessed>
+  <Language>en</Language>
+  <TimeZone>GMT Standard Time</TimeZone>
+  <MailboxUserNameStyle>full</MailboxUserNameStyle>
+  <AuditingReportDateTimeFormat>long</AuditingReportDateTimeFormat>
+  <BrowseXMLSelectedUsers />
+  <ShowPostInstallWizard>true</ShowPostInstallWizard>
+  <SavedSearchString>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SavedSearchesHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="7.01"&gt;
+  &lt;SavedSearches /&gt;
+&lt;/SavedSearchesHolder&gt;</SavedSearchString>
+  <SavedMailInsightsOptions />
+  <ADSearchType />
+  <ConfigPageMode>tile</ConfigPageMode>
+  <MailBoxList>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;MailboxUserHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="7.01"&gt;
+  &lt;MailboxUsers&gt;
+    &lt;MailboxUser DisplayName="Rui Cavaco (MIG\rcavaco)" UserGuid="b4f60aa86d54744c80f89b9af20d707b" Deletable="false" Accessable="true" /&gt;
+  &lt;/MailboxUsers&gt;
+&lt;/MailboxUserHolder&gt;</MailBoxList>
+</ProfileBag>

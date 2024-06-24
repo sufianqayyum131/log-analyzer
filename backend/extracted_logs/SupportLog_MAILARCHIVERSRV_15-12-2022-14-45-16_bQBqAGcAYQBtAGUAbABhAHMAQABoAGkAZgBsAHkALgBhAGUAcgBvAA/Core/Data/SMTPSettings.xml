@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<SMTPSettings xmlns="http://www.gfi.com/MArc/SMTPSettings.xsd">
+  <Settings>
+	<PollInterval>
+		5
+	</PollInterval>
+	<RetryInterval>
+		3
+	</RetryInterval>
+	<RetryAttempts>
+		3
+	</RetryAttempts>
+  </Settings>
+</SMTPSettings>

@@ -1,0 +1,12 @@
+
+==============================================================================
+COM Object Information
+==============================================================================
+
+Caption = CHTMLScrubber Object
+ProgId = HTMLScrubber.scrubber.1
+Threading Model = both
+Component Id = {5DEE16A7-6DED-4BD0-85D3-EEC8002D4C74}
+Type Library Id = {D1761C4C-B847-4699-8304-12378B0FE0AD}
+InprocServer32 = C:\Program Files\Common Files\GFI\common\htmlscrubber_x64.dll
+

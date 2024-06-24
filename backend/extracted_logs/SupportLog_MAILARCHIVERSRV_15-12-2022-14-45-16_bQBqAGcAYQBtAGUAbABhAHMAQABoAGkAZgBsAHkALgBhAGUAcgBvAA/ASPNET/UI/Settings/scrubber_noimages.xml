@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<!-- regular expressions match / don't search. i.e. starting ^ and ending $ should not be set explicitly -->
+<!--
+Changelog:
+20060112:1400
+removed the "last updated" comment because with the changelog it is not needed anymore. 
+url definition changes:
+    changed the regular expression for URL's to allow URL's starting with a whitespace
+    added new protocols for URL's:
+        - rtsp
+        - callto
+        - h323
+        - h324
+        - gopher
+        - news
+20051201:1200
+added the following attributes to their corresponding tags:
+    color
+    height
+    disabled
+    shape
+    usemap
+    wrap
+    acceptcharset
+    nowrap
+    hspace
+    id
+    compact
+    hidefocus
+    span
+    galleryimg
+    bgcolor
+    unselectable
+    selected
+    label
+    width
+    version
+    valign
+    type
+    multiple
+    class
+    contenteditable
+    name
+    align
+    title
+    value
+    coords
+
+also added the following tags:
+    - legend
+    - map
+    - area
+
+20051121:1100
+added attribute: DISABLED to form related tags:
+    - button
+    - input
+    - select
+    - textarea
+    - optgroup
+    - option
+
+added attribute: READONLY to corresponding form related tags:
+    - input
+    - textarea
+
+added tag LABEL and its corresponding attributes
+
+added name to the following tags:
+    - BUTTON
+    - FORM
+    - IMG
+    - RT
+    - RUBY
+    - SELECT
+    - TEXTAREA
+
+references: http://www.w3.org/TR/REC-html40/interact/forms.html
+            http://msdn.microsoft.com/workshop/author/dhtml/reference/properties/name_1.asp
+
+20051109:1422
+added attributes:CHECKED and DISABLED to tag:input
+20050906
+Changelog: added align in the IMG tag.
+-->
+
+<!--
+This is used by both MailSecurity and Archiver to filter to block XSS attacks in the web interface of both products.
+Currently used by both Rodion and Joseph.
+-->
+
+<config1>
+	<version ver="9" />
+	<whitelist list="&lt;!--.*?--&gt;|&lt;!DOCTYPE.*?&gt;|\e\$[B@].*?\e\([BDJI]" />
+
+	<css match="@import[^a..z-]" replace="@import-filtered " />
+	<css match="behaviour\s*\:" replace="behaviour-filtered:" />
+	<css match="-moz-binding\s*\:" replace="-moz-binding-filtered:" />
+	<css match="expression\s*\(" replace="expression-filtered(" />
+	<css match="url\(" replace="url-filtered(" />
+	
+<!--
+	<css match="url\((?!https?)" replace="url-filtered(" />
+	<css match="background-image\s*\:" replace="background-image-filtered:" />
+-->
+	<ignoredata one="&lt;script.*?&gt;.*?&lt;/script.*?&gt;|&lt;applet.*?&gt;.*?&lt;/applet.*?&gt;" />
+
+	<lut>
+		<any re=".*" />
+		<clear re="^all$|^none$|^right$|^left$|" />
+        <coords re="[\d,]+" />
+        <shape re="circ|circle|poly|polygon|rect|rectangle" />
+		<url re="\s*(http|https|ftp|rtsp|gopher)://.*|\s*(callto|h323|h324|mailto|news|cid):.*|/.*|\#.*|\w+\/.*" />
+		<size re="-*\d{0,5}(%|px)*" />
+		<align re="left|center|right|justify|middle|absmiddle" />
+		<valign re="top|middle|bottom|baseline|absmiddle" />
+		<method re="get|post" />
+        <color re=".{1,20}" />
+        <bgproperties re="fixed" />
+        <boolean re="true|false|yes|no" />
+        <alphanumeric re="[\w\-]+" />
+        <stylesheettype re="text\/css" />
+        <httpequiv re="Content-Type" />
+		<dir re="ltr|rtl" />
+	</lut>
+	<allowed>
+        <legend dir="dir" align="align" class="alphanumeric" contenteditable="any" disabled="any" id="alphanumeric" style="any" title="any" unselectable="any" />
+		<map dir="dir" class="alphanumeric" id="alphanumeric" name="any" style="any" title="any" />
+        <area dir="dir" alt="any" class="alphanumeric" coords="coords" href="url" id="alphanumeric" nohref="any" shape="shape" style="any" title="any" unselectable="any" />
+	    <meta dir="dir" name="any" http-equiv="httpequiv" content="any" class="alphanumeric" style="any" id="alphanumeric"/>
+        <style dir="dir" id="alphanumeric" type="stylesheettype" />
+        <a dir="dir" disabled="any" contenteditable="any" unselectable="any" type="any" shape="shape" coords="coords" href="url" title="any" name="any" class="alphanumeric" style="any" id="alphanumeric"/>
+        <acronym dir="dir" contenteditable="any" unselectable="any" title="any" disabled="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <address dir="dir" title="any" disabled="any" unselectable="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<b dir="dir" unselectable="any" title="any" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <base id="alphanumeric" href="url" />
+        <basefont color="color" face="any" size="size" class="alphanumeric" style="any" id="alphanumeric"/>
+        <big dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <blockquote dir="dir" title="any" unselectable="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<body dir="dir"  title="any" unselectable="any" disabled="any" contenteditable="any" bgcolor="color" alink="color" bgproperties="bgproperties" marginheight="size" marginwidth="size" bottommargin="size" leftmargin="size" link="color" nowrap="any" rightmargin="size" scroll="boolean" text="color" topmargin="size" vlink="color" class="alphanumeric" style="any" id="alphanumeric"/>
+        <br  class="alphanumeric" style="any" id="alphanumeric"/>
+        <button dir="dir" unselectable="any" title="any" contenteditable="any" value="any" type="any" class="alphanumeric" style="any" id="alphanumeric" disabled="any" name="any"/>
+        <caption dir="dir" unselectable="any" title="any" disabled="any" valign="valign" class="alphanumeric" style="any" id="alphanumeric"/>
+        <center dir="dir" unselectable="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<cite dir="dir" hidefocus="boolean" unselectable="any" title="any" contenteditable="any" disabled="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<code dir="dir" unselectable="any" title="any" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <col dir="dir" width="size" valign="valign" span="size" align="align" bgcolor="color" class="alphanumeric" style="any" id="alphanumeric"/>
+		<colgroup dir="dir" width="size" valign="valign" span="size" align="align" bgcolor="color" class="alphanumeric" style="any" id="alphanumeric"/>
+        <comment dir="dir" class="alphanumeric" style="any" id="alphanumeric"/>
+        <dd dir="dir" hidefocus="boolean" nowrap="any" unselectable="any" title="any" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<del dir="dir" unselectable="any" title="any" contenteditable="any" disabled="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <dfn dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<dir dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" compact="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <div dir="dir" unselectable="any" title="any" nowrap="any" hidefocus="boolean" disabled="any" contenteditable="any" align="align" class="alphanumeric" style="any" id="alphanumeric" />
+		<dl dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" compact="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<dt dir="dir" unselectable="any" title="any" nowrap="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<em dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<fieldset dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" align="align"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <font dir="dir" unselectable="any" hidefocus="boolean" disabled="any" contenteditable="any" face="any" size="size" color="color" class="alphanumeric" style="any" id="alphanumeric"/>
+        <form dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" acceptcharset="any" action="url" enctype="any" method="method" name="any" class="alphanumeric" style="any" id="alphanumeric"/>
+        <head dir="dir" class="alphanumeric" style="any" id="alphanumeric"/>
+        <h1 dir="dir" hidefocus="boolean" disabled="any" contenteditable="any" unselectable="any" title="any" align="align"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <h2 dir="dir" hidefocus="boolean" disabled="any" contenteditable="any" unselectable="any" title="any" align="align"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<h3 dir="dir" hidefocus="boolean" disabled="any" contenteditable="any" unselectable="any" title="any" align="align"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<h4 dir="dir" hidefocus="boolean" disabled="any" contenteditable="any" unselectable="any" title="any" align="align"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<h5 dir="dir" hidefocus="boolean" disabled="any" contenteditable="any" unselectable="any" title="any" align="align"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<h6 dir="dir" hidefocus="boolean" disabled="any" contenteditable="any" unselectable="any" title="any" align="align"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <hr dir="dir" unselectable="any" title="any" hidefocus="boolean" color="color" align="align" noshade="boolean" size="size" class="alphanumeric" style="any" id="alphanumeric"/>
+        <html dir="dir"  version="any" scroll="boolean" class="alphanumeric" style="any" id="alphanumeric"/>
+        <i dir="dir" unselectable="any" title="any" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <img dir="dir" unselectable="any" title="any" usemap="any" galleryimg="boolean" hidefocus="boolean" alt="any" height="size" width="size" hspace="size" vspace="size" border="size" class="alphanumeric" style="any" id="alphanumeric" align="align" name="any"/>
+		<input dir="dir" unselectable="any" title="any" usemap="any" hspace="size" hidefocus="boolean" contenteditable="any" border="size" align="align" alt="any" vspace="any" value="any" type="any" name="any" size="size" width="size" checked="any" maxlength="size" class="alphanumeric" style="any" id="alphanumeric" disabled="any" readonly="any"/>
+        <ins dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" datetime="any" class="alphanumeric" style="any" id="alphanumeric"/>
+		<kbd dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<label dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" class="alphanumeric" for="alphanumeric" lang="any" id="alphanumeric" style="any"/>
+        <li dir="dir" value="any" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" type="any" class="alphanumeric" style="any" id="alphanumeric"/>
+		<listing unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <menu dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" compact="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<nobr dir="dir" unselectable="any" height="size" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<ol dir="dir" unselectable="any" type="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" compact="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<optgroup label="any" class="alphanumeric" style="any" id="alphanumeric" disabled="any"/>
+        <option dir="dir" label="any" name="any" value="any" selected="any" class="alphanumeric" style="any" id="alphanumeric" disabled="any" />
+        <p dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" align="align" class="alphanumeric" style="any" id="alphanumeric"/>
+        <pre dir="dir" wrap="any" width="size" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <q dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<rt dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" name="any" class="alphanumeric" style="any" id="alphanumeric"/>
+		<ruby dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" name="any" class="alphanumeric" style="any" id="alphanumeric"/>
+        <s dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<samp dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <select dir="dir" value="any" unselectable="any" multiple="boolean" hidefocus="boolean" align="align" name="any" size="size" class="alphanumeric" style="any" id="alphanumeric" disabled="any"/>
+		<small dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <span dir="dir" unselectable="any" title="any" hidefocus="boolean" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<strike dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<strong dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<sub dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<sup dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<table dir="dir" align="align" width="size" bgcolor="color" border="size" bordercolor="color" cellpadding="size" cellspacing="size" frame="size" height="size" class="alphanumeric" style="any" id="alphanumeric"/>
+		<tbody dir="dir" unselectable="any" title="any" hidefocus="boolean" bgcolor="color" align="align" valign="valign" class="alphanumeric" style="any" id="alphanumeric"/>
+		<td dir="dir" unselectable="any" title="any" hidefocus="boolean" align="align" bgcolor="color" bordercolor="color" colspan="size" height="size" nowrap="any" rowspan="size" valign="valign" width="size" class="alphanumeric" style="any" id="alphanumeric"/>
+		<textarea dir="dir" unselectable="any" title="any" hidefocus="boolean" contenteditable="any" cols="size" rows="size" wrap="any" class="alphanumeric" style="any" id="alphanumeric" disabled="any" readonly="any" name="any"/>
+		<tfoot dir="dir" valign="valign" unselectable="any" title="any" hidefocus="boolean" align="align" bgcolor="color" class="alphanumeric" style="any" id="alphanumeric"/>
+		<th dir="dir" title="any" hidefocus="boolean" align="align" bgcolor="color" bordercolor="color" colspan="size" height="size" nowrap="any" rowspan="size" valign="valign" width="size" class="alphanumeric" style="any" id="alphanumeric"/>
+		<thead dir="dir" valign="valign" unselectable="any" title="any" hidefocus="boolean" align="align" bgcolor="color" class="alphanumeric" style="any" id="alphanumeric"/>
+		<title dir="dir" class="alphanumeric" style="any" id="alphanumeric"/>
+		<tr dir="dir" title="any" hidefocus="boolean" align="align" bgcolor="color" bordercolor="color" height="size" valign="valign" width="size" class="alphanumeric" style="any" id="alphanumeric"/>
+		<tt dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<u dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<ul dir="dir" unselectable="any" type="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any" compact="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+		<var dir="dir" unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+        <wbr class="alphanumeric" style="any" id="alphanumeric"/>
+		<xmp unselectable="any" title="any" hidefocus="boolean" disabled="any" contenteditable="any"  class="alphanumeric" style="any" id="alphanumeric"/>
+	</allowed>
+</config1>

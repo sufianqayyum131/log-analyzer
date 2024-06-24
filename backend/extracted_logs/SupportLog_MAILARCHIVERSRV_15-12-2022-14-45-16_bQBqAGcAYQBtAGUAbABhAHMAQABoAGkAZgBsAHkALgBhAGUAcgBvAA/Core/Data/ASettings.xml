@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<AttendantSettings xmlns="http://gfi.com/ContentSecurity/AttendantSettings.xsd">
+  <PlugIn Enabled="true" xmlns="">
+	<Path>bin\MArc.WCF.exe</Path>
+	<StartupObject>MArc.WCF.Host</StartupObject>
+  </PlugIn>
+
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.Core.Remoting.exe</Path>
+    <StartupObject>ML.Remoting.Host</StartupObject>
+  </PlugIn>
+
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\ML.Svc.Regcount.dll</Path>
+    <StartupObject>ML.Svc.Regcount.StartUp</StartupObject>
+  </PlugIn>
+
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.UMPolling.Core.dll</Path>
+    <StartupObject>MArc.UMPolling.Core.Core</StartupObject>
+  </PlugIn>
+
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.Logging.Scheduler.exe</Path>
+    <StartupObject>MArc.Logging.LogScheduler</StartupObject>
+  </PlugIn>
+
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.Smtp.dll</Path>
+    <StartupObject>MArc.Smtp.SMTPSender</StartupObject>
+  </PlugIn>
+
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.Licensing.Notifications.exe</Path>
+    <StartupObject>MArc.Licensing.NotificationsScheduler</StartupObject>
+  </PlugIn>
+  
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.DataSources.Scheduler.exe</Path>
+    <StartupObject>MArc.DS.DSScheduler</StartupObject>
+  </PlugIn>
+  
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.Enveloping.exe</Path> 
+    <StartupObject>MArc.Enveloping.Enveloper</StartupObject> 
+  </PlugIn>
+  
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.Dashboard.MonitorScheduler.dll</Path> 
+    <StartupObject>MArc.Dashboard.MonitorScheduler.Core</StartupObject> 
+  </PlugIn>
+  
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.MailInsights.Scheduler.dll</Path> 
+    <StartupObject>MArc.MailInsights.MIScheduler</StartupObject> 
+  </PlugIn>
+</AttendantSettings>

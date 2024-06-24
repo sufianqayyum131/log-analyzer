@@ -1,0 +1,69 @@
+
+==============================================================================
+Environment Information
+==============================================================================
+
+COMPUTERNAME = MAILARCHIVERSRV
+USERPROFILE = C:\Users\chopin
+HOMEPATH = \Users\chopin
+LOCALAPPDATA = C:\Users\chopin\AppData\Local
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PROCESSOR_ARCHITECTURE = AMD64
+Path = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\chopin\AppData\Local\Microsoft\WindowsApps
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+ProgramFiles(x86) = C:\Program Files (x86)
+PROCESSOR_LEVEL = 6
+LOGONSERVER = \\ROOTSRV1
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+HOMEDRIVE = C:
+SystemRoot = C:\Windows
+TMP = C:\Users\chopin\AppData\Local\Temp
+ALLUSERSPROFILE = C:\ProgramData
+DriverData = C:\Windows\System32\Drivers\DriverData
+APPDATA = C:\Users\chopin\AppData\Roaming
+PROCESSOR_REVISION = 4f01
+USERNAME = chopin
+CommonProgramW6432 = C:\Program Files\Common Files
+CommonProgramFiles = C:\Program Files\Common Files
+OS = Windows_NT
+USERDOMAIN_ROAMINGPROFILE = IT-ROOT
+BPPDOMAIN_MANAGER_ASM = EdrDotNet, Version=56.0.0.0, Culture=neutral, PublicKeyToken=da1b3922653ea916
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 79 Stepping 1, GenuineIntel
+ComSpec = C:\Windows\system32\cmd.exe
+SystemDrive = C:
+TEMP = C:\Users\chopin\AppData\Local\Temp
+ProgramFiles = C:\Program Files
+NUMBER_OF_PROCESSORS = 10
+BPPDOMAIN_MANAGER_TYPE = EdrDotNet.EdrAppDomainManager
+ProgramData = C:\ProgramData
+ProgramW6432 = C:\Program Files
+windir = C:\Windows
+USERDOMAIN = IT-ROOT
+PUBLIC = C:\Users\Public
+USERDNSDOMAIN = IT-ROOT.COM
+
+
+==============================================================================
+Operating System Information
+==============================================================================
+
+Machine Name = MAILARCHIVERSRV
+Platform = Win32NT
+OS Service Pack = 
+OS Version = 6.2.9200.0
+OS Version String = Microsoft Windows NT 6.2.9200.0
+.NET CLR version = 4.0.30319.42000
+64Bit OS = True
+Number of Processors = 10
+OS Name = Microsoft Windows Server 2019 Datacenter|C:\Windows|\Device\Harddisk0\Partition4
+Organization = 
+Serial Number = 00430-10320-50847-AA308
+Number of Users = 11
+Boot Device = \Device\HarddiskVolume2
+System Device = \Device\HarddiskVolume4
+System Drive = C:
+WindowsDirectory = C:\Windows
+System Directory = C:\Windows\system32
+Free Physical Memory = 67511056
+Free Space in Paging Files = 11534336
+Free Virtual Memory = 78642332

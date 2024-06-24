@@ -1,0 +1,55 @@
+
+==============================================================================
+Product Registry Information
+==============================================================================
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15]
+Build = 20210810
+ID = 99251352-3f29-45d9-a641-349adb2e0591
+Path = C:\Program Files\GFI\Archiver\
+VirtualDir = Archiver
+WebsiteAddress = http://MAILARCHIVERSRV:80/Archiver
+WebsiteNum = 1
+DBVerAuditing = 7
+DBVerSQL = 68
+DBVerFireBird = 83
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\Attendant]
+param5 = 96
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\Attendant\Regcount]
+Param1 = 96
+Param2 = 5
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\Attendant\Security]
+SecurityKey = System.Byte[]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\Config]
+Language = en
+AdvancedRequests = 1
+Debug = 1
+LogDir = C:\Program Files\GFI\Archiver\Core\DebugLogs\
+PFBase = 64
+StatusNotifications = 1
+usrcnt_interval = 5
+usrcnt_oninit = 1
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\Ecom]
+CHURL = https://updates.gfi.com/update/servicecheck.php
+MARUPDATEURL = http://updates.gfi.com/mar/
+URL = https://www.gfi.com/link/entry.aspx
+CHUPDATEURL = https://updates.gfi.com/license/gfi.key
+instanceId = 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\GFIDS]
+Schema = 0
+LDAPUrl = 
+Enabled = 0
+IP = 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\Web]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\GFI\MAR15\Web\Config]
+Debug = 1
+LogDir = C:\Program Files\GFI\Archiver\ASPNET\UI\DebugLogs
+

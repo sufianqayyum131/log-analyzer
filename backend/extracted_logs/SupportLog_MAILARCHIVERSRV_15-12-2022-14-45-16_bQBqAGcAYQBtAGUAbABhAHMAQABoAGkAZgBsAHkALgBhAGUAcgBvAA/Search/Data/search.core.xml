@@ -1,0 +1,77 @@
+<searchcore>
+  <indices />
+  <indexing_options>
+    <attachments indexing="true">
+      <whitelist>
+        <item ext=".txt" />
+        <item ext=".rtf" />
+        <item ext=".htm" />
+        <item ext=".html" />
+        <item ext=".xml" />
+        <item ext=".zip" />
+		<item ext=".rar" />
+        <item ext=".pdf" />
+        <item ext=".msg" /> <!-- outlook msg -->
+        <item ext=".doc" /> <!-- word -->
+        <item ext=".xls" />
+        <!-- excel -->
+        <item ext=".ppt" />
+        <!-- powerpoint -->
+        <item ext=".docx" inputtype="268" />
+        <!-- word 2007 -->
+        <item ext=".xlsx" inputtype="269" />
+        <!-- excel 2007 -->
+        <item ext=".pptx" inputtype="270" />
+        <!-- powerpoint 2007 -->
+        <item ext=".wpd" />
+        <!-- wordperfect -->
+        <item ext=".wpf" />
+        <!-- wordperfect -->
+        <item ext=".sxc" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".sxd" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".sxi" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".sxw" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".sxg" />
+        <!-- openoffice -->
+        <item ext=".stc" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".sti" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".stw" />
+        <!-- openoffice -->
+        <item ext=".stm" />
+        <!-- openoffice -->
+        <item ext=".odt" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".ott" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".odg" />
+        <!-- openoffice -->
+        <item ext=".otg" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".odp" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".otp" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".ods" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".ots" />
+        <!-- openoffice -->
+        <item ext=".odf" inputtype="260" />
+        <!-- openoffice -->
+        <item ext=".eml" />
+        <item ext=".mht" />
+        <item ext=".xps" inputtype="272" />
+        <!-- XML Paper Specification  -->
+      </whitelist>
+      <compressed>
+        <item ext=".zip" />
+		<item ext=".rar" />
+      </compressed>
+    </attachments>
+  </indexing_options>
+</searchcore>

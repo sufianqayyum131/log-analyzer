@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<RemotingSettings xmlns="http://gfi.com/ContentSecurity/RemotingSettings.xsd">
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\MArc.Ada.Authentication.dll</Path>
+		<RemotableObject>MArc.Ada.Security.AdaAuthentication</RemotableObject>
+		<URI>ADA</URI>
+	</Component>
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\MArc.Ada.Services.dll</Path>
+		<RemotableObject>MArc.Ada.Services.AdaInformation</RemotableObject>
+		<URI>Information</URI>
+	</Component>
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\GFI.VSS.dll</Path>
+		<RemotableObject>GFI.VSS.VssWriterSubscriber</RemotableObject>
+		<URI>VssWriterSubscriber</URI>
+	</Component>
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\DLE.Agent.dll</Path>
+		<RemotableObject>DLE.Agent</RemotableObject>
+		<URI>DLEAgent</URI>
+	</Component>
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\Store.Core.dll</Path>
+		<RemotableObject>Store.Core.EmailMessageManipulation</RemotableObject>
+		<URI>EmailManipulation</URI>
+	</Component>
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\Store.Core.dll</Path>
+		<RemotableObject>Store.Core.MailInsightsReporting</RemotableObject>
+		<URI>MailInsightsReporting</URI>
+	</Component>
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\Store.Cache.dll</Path>
+		<RemotableObject>Store.Cache.Cache</RemotableObject>
+		<URI>StoreCache</URI>
+	</Component>
+
+	<Component Enabled="true" xmlns="">
+		<Path>bin\Store.Cache.dll</Path>
+		<RemotableObject>Store.Cache.Statistics</RemotableObject>
+		<URI>Statistics</URI>
+	</Component>
+
+	<Remoting xmlns="">
+		<ApplicationName>Store</ApplicationName>
+	</Remoting>
+
+</RemotingSettings>

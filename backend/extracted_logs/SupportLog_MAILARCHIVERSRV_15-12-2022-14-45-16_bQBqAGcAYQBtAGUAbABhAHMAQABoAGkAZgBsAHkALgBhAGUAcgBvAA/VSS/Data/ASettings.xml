@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<AttendantSettings xmlns="http://gfi.com/ContentSecurity/AttendantSettings.xsd">
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\GFI.VSS.dll</Path>
+    <StartupObject>GFI.VSS.VssWriter</StartupObject>
+  </PlugIn>
+</AttendantSettings>

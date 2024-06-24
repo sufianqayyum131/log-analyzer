@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WCFClientSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OperationTimeoutMinutes>5</OperationTimeoutMinutes>
+  <CheckIfServiceAliveSeconds>15</CheckIfServiceAliveSeconds>
+  <WCFServices>
+    <WCFServiceEndPoint ContractName="MArc.Store.IManagement" EndPoint="net.pipe://localhost/Store/Management" />
+    <WCFServiceEndPoint ContractName="MArc.Store.IAuditDataUpload" EndPoint="net.pipe://localhost/Store/AuditUpload" />
+    <WCFServiceEndPoint ContractName="MArc.Store.IAuditDataRetrieval" EndPoint="net.pipe://localhost/Store/AuditRetrieval" />
+    <WCFServiceEndPoint ContractName="Store.Core.IEmailRetrieval" EndPoint="net.pipe://localhost/Store/CoreMessage" />
+    <WCFServiceEndPoint ContractName="Store.Core.IEmailMessageRetrieval" EndPoint="net.pipe://localhost/Store/EmailMessageRetrieval" />
+    <WCFServiceEndPoint ContractName="Store.Cache.IUpdates" EndPoint="net.pipe://localhost/Store/UpdatesNotification" />
+    <WCFServiceEndPoint ContractName="Store.ArchiveStoreManager.Base.IArchiveStoreManager" EndPoint="net.pipe://localhost/Store/ArchiveStoreManager" />
+    <WCFServiceEndPoint ContractName="Store.Dal.IEmailMessageOperation" EndPoint="net.pipe://localhost/Store/EmailMessageOperation" />    
+    <WCFServiceEndPoint ContractName="MArc.Search.Query.ISearchEngine" EndPoint="net.pipe://localhost/Search/SearchFacade" />
+    <WCFServiceEndPoint ContractName="MArc.ConfigurationService.Base.ICSSettingsHolder" EndPoint="net.pipe://localhost/Core/CSService" />
+    <WCFServiceEndPoint ContractName="MArc.ArchiveAssistant.Base.IStatus" EndPoint="net.pipe://localhost/Core/ArchiveAssistantStatus" />
+    <WCFServiceEndPoint ContractName="MArc.FileArchiveAssistant.Base.IAgentStatus" EndPoint="net.pipe://localhost/Core/FileArchiveAssistantStatus" />
+    <WCFServiceEndPoint ContractName="MArc.Dashboard.Base.IDashboard" EndPoint="net.pipe://localhost/Core/Dashboard" />
+    <WCFServiceEndPoint ContractName="MArc.MailInsights.IReportManager" EndPoint="net.pipe://localhost/Core/ReportManager" />
+    <WCFServiceEndPoint ContractName="MArc.IMAP.Remote.IIMAPRemote" EndPoint="net.pipe://localhost/IMAP/IMAPRemote" />
+    <WCFServiceEndPoint ContractName="MArc.TS.ITicketService" EndPoint="net.pipe://localhost/Core/TicketService" />
+    <WCFServiceEndPoint ContractName="MArc.Licensing.IRCInformation" EndPoint="net.pipe://localhost/Core/Licensing" />
+  </WCFServices>
+</WCFClientSettings>

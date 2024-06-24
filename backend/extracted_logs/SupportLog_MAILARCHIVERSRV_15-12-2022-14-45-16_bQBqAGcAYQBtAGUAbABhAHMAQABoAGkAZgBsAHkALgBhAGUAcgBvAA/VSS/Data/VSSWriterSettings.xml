@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VssWriterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>GFI MailArchiver VSS Writer</Name>
+  <Id>42a31dc7-fc7b-49b6-a009-8c58b3ed01a6</Id>
+  <Plugins/>
+  <Subscribers>
+    <VssSubscriber Enabled="true">
+      <URL>ipc://MARStore/VssWriterSubscriber</URL>
+      <ServiceName>GFI.MailArchiver.Store</ServiceName>
+    </VssSubscriber>
+    <VssSubscriber Enabled="true">
+      <URL>ipc://MARSearch/VssWriterSubscriber</URL>
+      <ServiceName>GFI.MailArchiver.Search</ServiceName>
+    </VssSubscriber>
+    <VssSubscriber Enabled="true">
+      <URL>ipc://MAR/Core/VssWriterSubscriber</URL>
+      <ServiceName>GFI.MailArchiver.Core</ServiceName>
+    </VssSubscriber>
+    <VssSubscriber Enabled="true">
+      <URL>ipc://MARMAIS/MAIS/VssWriterSubscriber</URL>
+      <ServiceName>GFI.MailArchiver.MAIS</ServiceName>
+    </VssSubscriber>
+    <VssSubscriber Enabled="true">
+      <URL>ipc://MARImap/Imap/VssWriterSubscriber</URL>
+      <ServiceName>GFI.MailArchiver.Imap</ServiceName>
+    </VssSubscriber>
+  </Subscribers>
+  <Restore>
+    <RestoreOperationMethod>VSS_RME_RESTORE_IF_CAN_REPLACE</RestoreOperationMethod>
+    <ServiceName></ServiceName>
+    <UseWriter>VSS_WRE_NEVER</UseWriter>
+    <RebootRequired>false</RebootRequired>
+  </Restore>
+  <Components/>
+</VssWriterSettings>

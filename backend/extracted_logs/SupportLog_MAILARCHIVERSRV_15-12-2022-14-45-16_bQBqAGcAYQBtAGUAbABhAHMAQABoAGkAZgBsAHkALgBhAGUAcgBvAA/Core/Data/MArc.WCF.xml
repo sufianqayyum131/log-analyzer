@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WCFSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AppName>Core</AppName>
+  <AppPort>-1</AppPort>
+  <WCFServices>
+    <WCFService Enabled="true" URI="CSService" IdleTimeoutInfinite="true">
+      <ServiceLibrary>bin\MArc.ConfigurationService.dll</ServiceLibrary>
+      <ServiceName>MArc.ConfigurationService.CSService</ServiceName>
+      <ContractLibrary>bin\MArc.ConfigurationService.Base.dll</ContractLibrary>
+      <ContractName>MArc.ConfigurationService.Base.ICSSettingsHolder</ContractName>      
+    </WCFService>
+    <WCFService Enabled="true" URI="TicketService">
+      <ServiceLibrary>bin\MArc.TicketServices.dll</ServiceLibrary>
+      <ServiceName>MArc.TS.TicketService</ServiceName>
+      <ContractLibrary>bin\MArc.TicketServices.dll</ContractLibrary>
+      <ContractName>MArc.TS.ITicketService</ContractName>      
+    </WCFService>
+    <WCFService Enabled="true" URI="Licensing">
+      <ServiceLibrary>bin\MArc.Licensing.RCRemoting.dll</ServiceLibrary>
+      <ServiceName>MArc.Licensing.RCInformation</ServiceName>
+      <ContractLibrary>bin\MArc.Licensing.RCRemoting.dll</ContractLibrary>
+      <ContractName>MArc.Licensing.IRCInformation</ContractName>      
+    </WCFService>
+	<WCFService Enabled="true" URI="ReportManager" IdleTimeoutInfinite="false">
+		<ServiceLibrary>bin\MArc.MailInsights.ReportManager.dll</ServiceLibrary>
+		<ServiceName>MArc.MailInsights.ReportManager</ServiceName>
+		<ContractLibrary>bin\MArc.MailInsights.Base.dll</ContractLibrary>
+		<ContractName>MArc.MailInsights.IReportManager</ContractName>
+	</WCFService>
+	<WCFService Enabled="true" URI="ArchiveAssistantStatus" IdleTimeoutInfinite="false">
+		<ServiceLibrary>bin\MArc.ArchiveAssistant.dll</ServiceLibrary>
+		<ServiceName>MArc.ArchiveAssistant.Status</ServiceName>
+		<ContractLibrary>bin\MArc.ArchiveAssistant.Base.dll</ContractLibrary>
+		<ContractName>MArc.ArchiveAssistant.Base.IStatus</ContractName>
+	</WCFService>
+	<WCFService Enabled="true" URI="FileArchiveAssistantStatus" IdleTimeoutInfinite="false">
+		<ServiceLibrary>bin\MArc.FileArchiveAssistant.dll</ServiceLibrary>
+		<ServiceName>MArc.FileArchiveAssistant.AgentStatus</ServiceName>
+		<ContractLibrary>bin\MArc.FileArchiveAssistant.Base.dll</ContractLibrary>
+		<ContractName>MArc.FileArchiveAssistant.Base.IAgentStatus</ContractName>
+	</WCFService>
+	<WCFService Enabled="true" URI="Dashboard">
+		<ServiceLibrary>bin\MArc.Dashboard.Core.dll</ServiceLibrary>
+		<ServiceName>MArc.Dashboard.Core.Remote</ServiceName>
+		<ContractLibrary>bin\MArc.Dashboard.Base.dll</ContractLibrary>
+		<ContractName>MArc.Dashboard.Base.IDashboard</ContractName>
+	</WCFService>
+  </WCFServices>
+</WCFSettings>

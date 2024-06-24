@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<WCFClientSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OperationTimeoutMinutes>5</OperationTimeoutMinutes>
+	<CheckIfServiceAliveSeconds>10</CheckIfServiceAliveSeconds>
+	<WCFServices>
+		<WCFServiceEndPoint ContractName="MArc.ConfigurationService.Base.ICSSettingsHolder" EndPoint="net.pipe://localhost/Core/CSService" />
+		<WCFServiceEndPoint ContractName="MArc.Licensing.IRCInformation" EndPoint="net.pipe://localhost/Core/Licensing" />	
+    <WCFServiceEndPoint ContractName="GFI.Directory.API.IManagement" EndPoint="net.pipe://localhost/DSManagement" />
+		<WCFServiceEndPoint ContractName="GFI.Directory.API.ISecurity" EndPoint="net.pipe://localhost/DSSecurity" />	
+	</WCFServices>
+</WCFClientSettings>

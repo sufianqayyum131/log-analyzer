@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<AttendantSettings xmlns="http://gfi.com/ContentSecurity/AttendantSettings.xsd">
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.WCF.SearchCore.exe</Path>
+    <StartupObject>MArc.WCF.Host</StartupObject>
+  </PlugIn>
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.WCF.SearchFacade.exe</Path>
+    <StartupObject>MArc.WCF.Host</StartupObject>
+  </PlugIn>
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.Search.Remoting.exe</Path>
+    <StartupObject>ML.Remoting.Host</StartupObject>
+  </PlugIn>
+</AttendantSettings>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutomationLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MailboxDatabasesJournaling>
+    <PropExchVer>
+      <Name>416bd98c581b7e4694fe7c73559dd37e</Name>
+      <ExchVersion>Exchange2010</ExchVersion>
+    </PropExchVer>
+  </MailboxDatabasesJournaling>
+  <JournalUsers />
+  <Users />
+  <UMPollingUsers />
+</AutomationLog>

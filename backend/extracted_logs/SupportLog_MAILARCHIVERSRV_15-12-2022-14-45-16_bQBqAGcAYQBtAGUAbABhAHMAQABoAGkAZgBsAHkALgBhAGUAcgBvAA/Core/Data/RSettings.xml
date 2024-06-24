@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<RemotingSettings xmlns="http://gfi.com/ContentSecurity/RemotingSettings.xsd">
+
+  <Component Enabled="true" xmlns="">
+    <Path>bin\MArc.Ada.Authentication.dll</Path>
+    <RemotableObject>MArc.Ada.Security.AdaAuthentication</RemotableObject>
+    <URI>ADA</URI>
+  </Component>
+
+  <Component Enabled="true" xmlns="">
+		<Path>bin\MArc.Ada.Services.dll</Path>
+		<RemotableObject>MArc.Ada.Services.AdaExchange</RemotableObject>
+		<URI>Exchange</URI>
+  </Component>
+  
+  <Component Enabled="true" xmlns="">
+    <Path>bin\MArc.Ada.Services.dll</Path>
+    <RemotableObject>MArc.Ada.Services.AdaInformation</RemotableObject>
+    <URI>Information</URI>
+  </Component>
+
+  <Component Enabled="true" xmlns="">
+    <Path>bin\GFI.VSS.dll</Path>
+    <RemotableObject>GFI.VSS.VssWriterSubscriber</RemotableObject>
+    <URI>VssWriterSubscriber</URI>
+  </Component>
+
+  <Component Enabled="true" xmlns="">
+	<Path>bin\MArc.DataSources.Factory.dll</Path>
+	<RemotableObject>MArc.DS.DSTests</RemotableObject>
+	<URI>DSTests</URI>
+  </Component>
+	
+  <Component Enabled="true" xmlns="">
+	<Path>bin\MArc.ExchAuto.Remote.dll</Path>
+	<RemotableObject>MArc.ExchAuto.ExchangeAutomationRemote</RemotableObject>
+	<URI>ExchangeAutomationRemote</URI>
+  </Component>
+
+  <Component Enabled="true" xmlns="">
+	<Path>bin\MArc.DataUpload.dll</Path>
+	<RemotableObject>MArc.DataUpload.EmailUploader</RemotableObject>
+	<URI>EmailUploader</URI>
+  </Component>
+	
+  <Component Enabled="true" xmlns="">
+    <Path>bin\ML.NS.dll</Path>
+    <RemotableObject>ML.NS.NotificationServices</RemotableObject>
+    <URI>Notifications</URI>
+  </Component>
+
+  <Component Enabled="true" xmlns="">
+    <Path>bin\MArc.UMPolling.Remote.dll</Path>
+    <RemotableObject>MArc.UMPolling.Remote.UMRemote</RemotableObject>
+    <URI>UMPolling</URI>
+  </Component>
+
+  <Remoting xmlns=""><ApplicationName>Core</ApplicationName></Remoting>
+
+</RemotingSettings>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FilterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rules>
+    <Rule Enabled="true" Guid="E9109427-7F6C-463b-BE72-91C3B7850863">
+      <Description>test rule 1</Description>
+      <Conditions>
+        <Condition FieldName = "DatabaseName" Operation = "Equals" Value = "master"/>
+        <Condition FieldName = "ObjectName" Operation = "NotEqual" Value = "sp_procoption"/>
+        <Condition FieldName = "ObjectType" Operation = "NotEqual" Value = "19"/>
+        <Condition FieldName = "ObjectType" Operation = "NotEqual" Value = "8280"/> <!-- sql 2005 extended stored procedure -->
+        <Condition FieldName = "ObjectType" Operation = "NotEqual" Value = "21075"/><!-- sql 2005 server -->
+        <Condition FieldName = "ObjectType" Operation = "NotEqual" Value = "2"/><!-- sql 2000 database -->
+        <Condition FieldName = "ObjectType" Operation = "NotEqual" Value = "16964"/><!-- sql 2005 database -->
+      </Conditions>
+    </Rule>
+    <Rule Enabled="true" Guid="0C13B6B6-66D1-4900-96B7-EA3C501B023D">
+      <Conditions>
+        <Condition FieldName = "ObjectType" Operation = "Equals" Value = "21587"/><!-- sql 2005 statistics -->
+      </Conditions>
+    </Rule>
+  </Rules>
+</FilterSettings>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VssWriterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>GFI MailArchiver VSS</Name>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Restore/>
+  <ExcludeFiles>
+    <ExcludeFile>
+      <Path>Temp</Path>
+      <Filename>*.*</Filename>
+      <IncludeSubdirectories>false</IncludeSubdirectories>
+    </ExcludeFile>
+    <ExcludeFile>
+      <Path>DebugLogs</Path>
+      <Filename>*.*</Filename>
+      <IncludeSubdirectories>false</IncludeSubdirectories>
+    </ExcludeFile>
+  </ExcludeFiles>
+  <Components>
+    <Component>
+      <ComponentType>VSS_CT_FILEGROUP</ComponentType>
+      <Name>State</Name>
+      <Description>GFI MailArchiver State</Description>
+      <Selectable>true</Selectable>
+      <SelectableForRestore>true</SelectableForRestore>
+      <OptionalFlags>0</OptionalFlags>
+      <Files>
+        <IncludeFile>
+          <GroupName>State</GroupName>
+          <Path>Data\DB</Path>
+          <Filename>imapdb.fdb</Filename>
+          <IncludeSubdirectories>false</IncludeSubdirectories>
+          <BackupTypeMask>3855</BackupTypeMask>
+        </IncludeFile>
+      </Files>
+    </Component>
+  </Components>
+</VssWriterSettings>

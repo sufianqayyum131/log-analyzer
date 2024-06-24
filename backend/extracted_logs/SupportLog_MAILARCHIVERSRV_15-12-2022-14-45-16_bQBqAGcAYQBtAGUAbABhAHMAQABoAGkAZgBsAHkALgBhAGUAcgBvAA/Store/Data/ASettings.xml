@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<AttendantSettings xmlns="http://gfi.com/ContentSecurity/AttendantSettings.xsd">
+	<PlugIn Enabled="true" xmlns="">
+		<Path>bin\MArc.Store.Remoting.exe</Path>
+		<StartupObject>ML.Remoting.Host</StartupObject>
+	</PlugIn>
+	<PlugIn Enabled="true" xmlns="">
+		<Path>bin\MArc.WCF.exe</Path>
+		<StartupObject>MArc.WCF.Host</StartupObject>
+	</PlugIn>
+	<PlugIn Enabled="true" xmlns="">
+		<Path>bin\Store.Maintenance.Scheduler.exe</Path>
+		<StartupObject>Store.Maintenance.Scheduler</StartupObject>
+	</PlugIn>
+</AttendantSettings>

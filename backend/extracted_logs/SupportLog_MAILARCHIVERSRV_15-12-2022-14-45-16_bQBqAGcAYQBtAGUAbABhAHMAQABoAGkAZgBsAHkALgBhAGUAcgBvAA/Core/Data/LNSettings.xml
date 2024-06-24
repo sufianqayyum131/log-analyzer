@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<LicNotifySettings xmlns="http://www.gfi.com/marc/LicNotifySettings.xsd">
+  <Settings Interval="1">
+    <AppLevel>11</AppLevel>
+    <DayCountBetweenMailsInGracePeriod>5</DayCountBetweenMailsInGracePeriod>
+    <DayCountBetweenMailsInAboutToExpire>5</DayCountBetweenMailsInAboutToExpire>
+  </Settings>
+</LicNotifySettings>

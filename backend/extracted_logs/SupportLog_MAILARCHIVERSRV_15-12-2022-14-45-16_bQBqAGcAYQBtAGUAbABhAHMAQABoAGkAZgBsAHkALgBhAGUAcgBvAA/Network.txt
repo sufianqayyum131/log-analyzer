@@ -1,0 +1,85 @@
+
+==============================================================================
+Network Information
+==============================================================================
+
+Interface information for mailarchiversrv1.IT-ROOT.COM
+NetBIOS node type: Hybrid
+
+Machine Name = MAILARCHIVERSRV
+Name = Ethernet0
+Description = Intel(R) 82574L Gigabit Network Connection
+Network Interface Type = Ethernet
+Physical Address = 005056A6BBB2
+Adapter ID = {96594EF1-460D-45C8-A0CC-043B860C3E3F}
+Receive only = False
+Status = Up
+Speed = 1000000000
+
+PROPERTIES
+
+	DNS Suffix = 
+	DNS Enabled = False
+	Dynamic DNS Enabled = True
+
+
+	UniCast Address = 10.101.10.154
+
+
+	Supports multi-cast = True
+	Multicast Address = 224.0.0.1
+	Multicast Address = 224.0.0.251
+	Multicast Address = 224.0.0.252
+
+	Gateway Address = 10.101.10.1
+
+	IPV4 Properties
+	Interface Index = 12
+	Automatic Private Addressing Active = False
+	Automatic Private Addressing Enabled = True
+	DHCP Enabled = False
+	Forwarding Enabled = False
+	MTU Size = 1500
+	Uses Wins = False
+	IPV6 is not implemented
+
+==============================================================================
+
+Machine Name = MAILARCHIVERSRV
+Name = Loopback Pseudo-Interface 1
+Description = Software Loopback Interface 1
+Network Interface Type = Loopback
+Physical Address = 
+Adapter ID = {ADAA49DB-D803-11EB-8C5C-806E6F6E6963}
+Receive only = False
+Status = Up
+Speed = 1073741824
+
+PROPERTIES
+
+	DNS Suffix = 
+	DNS Enabled = False
+	Dynamic DNS Enabled = True
+
+
+	UniCast Address = ::1
+	UniCast Address = 127.0.0.1
+
+
+	Supports multi-cast = True
+
+
+	IPV4 Properties
+	Interface Index = 1
+	Automatic Private Addressing Active = False
+	Automatic Private Addressing Enabled = True
+	DHCP Enabled = False
+	Forwarding Enabled = False
+	MTU Size = -1
+	Uses Wins = False
+	IPV6 Properties
+	Interface Index = 1
+	MTU Size = -1
+
+==============================================================================
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<LogSettings xmlns="http://www.gfi.com/marc/LogSettings.xsd">
+
+  <Filter Enabled="true">
+    <Path>bin\MArc.Logging.Filters.dll</Path>
+    <FilterObject>MArc.Logging.TicketFilter</FilterObject>
+  </Filter>
+
+  <Filter Enabled="true">
+    <Path>bin\MArc.Logging.Filters.dll</Path>
+    <FilterObject>MArc.Logging.DirectionFilter</FilterObject>
+  </Filter>
+
+  <Filter Enabled="true">
+    <Path>bin\MArc.Logging.Filters.dll</Path>
+    <FilterObject>MArc.Logging.ExcludeFilter</FilterObject>
+  </Filter>
+
+  <Filter Enabled="true">
+    <Path>bin\MArc.Logging.Filters.dll</Path>
+    <FilterObject>MArc.Logging.SignatureFilter</FilterObject>
+  </Filter>
+
+  <Filter Enabled="true">
+    <Path>bin\MArc.Logging.Filters.dll</Path>
+    <FilterObject>MArc.Logging.HeaderStrippingFilter</FilterObject>
+  </Filter>
+
+  <Filter Enabled="true">
+    <Path>bin\MArc.Logging.Filters.dll</Path>
+    <FilterObject>MArc.Logging.CompressionFilter</FilterObject>
+  </Filter>
+
+  <Filter Enabled="true">
+    <Path>bin\MArc.Logging.Scheduler.exe</Path>
+    <FilterObject>MArc.Logging.LogSubmit2</FilterObject>
+  </Filter>
+
+  <Settings Interval="0.5">
+	<MaxThreads>5</MaxThreads>
+	<BatchSize>100</BatchSize>
+  </Settings>
+</LogSettings>

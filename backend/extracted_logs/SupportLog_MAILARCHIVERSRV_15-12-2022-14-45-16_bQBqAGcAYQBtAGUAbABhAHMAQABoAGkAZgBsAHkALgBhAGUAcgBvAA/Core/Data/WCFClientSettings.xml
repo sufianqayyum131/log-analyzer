@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WCFClientSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OperationTimeoutMinutes>5</OperationTimeoutMinutes>
+	<CheckIfServiceAliveSeconds>15</CheckIfServiceAliveSeconds>
+	<WCFServices>
+		<WCFServiceEndPoint ContractName="MArc.ConfigurationService.Base.ICSSettingsHolder" EndPoint="net.pipe://localhost/Core/CSService" />
+		<WCFServiceEndPoint ContractName="MArc.TS.ITicketService" EndPoint="net.pipe://localhost/Core/TicketService" />
+		<WCFServiceEndPoint ContractName="MArc.Licensing.IRCInformation" EndPoint="net.pipe://localhost/Core/Licensing" />		
+		<WCFServiceEndPoint ContractName="Store.Core.IEmailMessageRetrieval" EndPoint="net.pipe://localhost/Store/EmailMessageRetrieval" />
+		<WCFServiceEndPoint ContractName="MArc.MailInsights.IReportManager" EndPoint="net.pipe://localhost/Core/ReportManager" />
+		<WCFServiceEndPoint ContractName="MArc.Store.IManagement" EndPoint="net.pipe://localhost/Store/Management" />
+		<WCFServiceEndPoint ContractName="MArc.Search.Query.ISearchEngine" EndPoint="net.pipe://localhost/Search/SearchFacade" />
+		<WCFServiceEndPoint ContractName="MArc.Dashboard.Base.IDashboard" EndPoint="net.pipe://localhost/Core/Dashboard" />
+		<WCFServiceEndPoint ContractName="MArc.IMAP.Remote.IIMAPRemote" EndPoint="net.pipe://localhost/IMAP/IMAPRemote" />	
+		<WCFServiceEndPoint ContractName="Store.Retention.IRetroRetention" EndPoint="net.pipe://localhost/Store/RetroRetention" />	
+		<WCFServiceEndPoint ContractName="GFI.Directory.API.IManagement" EndPoint="net.pipe://localhost/DSManagement" />
+		<WCFServiceEndPoint ContractName="GFI.Directory.API.ISecurity" EndPoint="net.pipe://localhost/DSSecurity" />
+	</WCFServices>
+</WCFClientSettings>

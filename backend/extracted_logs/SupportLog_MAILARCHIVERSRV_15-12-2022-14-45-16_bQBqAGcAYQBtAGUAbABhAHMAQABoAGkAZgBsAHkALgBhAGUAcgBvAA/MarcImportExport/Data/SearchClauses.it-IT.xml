@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchClauses xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SupportedClauses>
+      <SupportedClause>
+        <SearchClause>subject</SearchClause>
+        <ClauseType>Oggetto</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>sender</SearchClause>
+        <ClauseType>Mittente</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>to</SearchClause>
+        <ClauseType>Destinatario</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>bcc</SearchClause>
+        <ClauseType>CCN</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>sentdate</SearchClause>
+        <ClauseType>Data di invio</ClauseType>
+        <Operator>3</Operator>
+        <ControlType>Generic DateTime</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>recvdate</SearchClause>
+        <ClauseType>Data di ricezione</ClauseType>
+        <Operator>3</Operator>
+        <ControlType>Generic DateTime</ControlType>
+      </SupportedClause>
+	<SupportedClause>
+        <SearchClause>startdated</SearchClause>
+        <ClauseType>Start Date</ClauseType>
+        <Operator>3</Operator>
+        <ControlType>Generic DateTime</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>msgsize</SearchClause>
+        <ClauseType>Dimensione (KB)</ClauseType>
+        <Operator>2</Operator>
+        <ControlType>Generic Integer</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>msgid</SearchClause>
+        <ClauseType>ID messaggio</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>attachmentandbody</SearchClause>
+        <ClauseType>Intera email</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>body</SearchClause>
+        <ClauseType>Corpo</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>attachment</SearchClause>
+        <ClauseType>Allegato</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Text</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>folder</SearchClause>
+        <ClauseType>Cartella</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Folder</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>foldersubfolder</SearchClause>
+        <ClauseType>Cartella\sottocartelle</ClauseType>
+        <Operator>1</Operator>
+        <ControlType>Generic Folder</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>personallabel</SearchClause>
+        <ClauseType>Etichetta personale</ClauseType>
+        <Operator>4</Operator>
+        <ControlType>Personal Label</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>globallabel</SearchClause>
+        <ClauseType>Etichetta globale</ClauseType>
+        <Operator>5</Operator>
+        <ControlType>Global Label</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>retentionlabel</SearchClause>
+        <ClauseType>Classificazione</ClauseType>
+        <Operator>6</Operator>
+        <ControlType>Retention Label</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>spamtag</SearchClause>
+        <ClauseType>Contrassegno SPAM</ClauseType>
+        <Operator>0</Operator>
+        <ControlType>SPAM Tag</ControlType>
+      </SupportedClause>
+      <SupportedClause>
+        <SearchClause>hasattachments</SearchClause>
+        <ClauseType>Contiene documento</ClauseType>
+        <Operator>0</Operator>
+        <ControlType>Has Attachments</ControlType>
+      </SupportedClause>
+    </SupportedClauses>
+    <SupportedOperators>
+      <SupportedOperator>
+        <Id>1</Id>
+        <OperatorType>È ESATTAMENTE</OperatorType>
+        <OperatorSql>=</OperatorSql>
+      </SupportedOperator>
+      <SupportedOperator>
+        <Id>1</Id>
+        <OperatorType>CONTIENE</OperatorType>
+        <OperatorSql>LIKE</OperatorSql>
+      </SupportedOperator>
+      <SupportedOperator>
+        <Id>2</Id>
+        <OperatorType>È ESATTAMENTE</OperatorType>
+        <OperatorSql>=</OperatorSql>
+      </SupportedOperator>
+      <SupportedOperator>
+        <Id>2</Id>
+        <OperatorType>MAGGIORE DI</OperatorType>
+        <OperatorSql>&gt;</OperatorSql>
+      </SupportedOperator>
+      <SupportedOperator>
+        <Id>2</Id>
+        <OperatorType>MINORE DI</OperatorType>
+        <OperatorSql>&lt;</OperatorSql>
+      </SupportedOperator>
+      <SupportedOperator>
+        <Id>3</Id>
+        <OperatorType>È ESATTAMENTE</OperatorType>
+        <OperatorSql>=</OperatorSql>
+      </SupportedOperator>
+      <SupportedOperator>
+        <Id>3</Id>
+        <OperatorType>PRECEDE</OperatorType>
+        <OperatorSql>&gt;</OperatorSql>
+      </SupportedOperator>
+      <SupportedOperator>
+        <Id>3</Id>
+        <OperatorType>È SUCCESSIVA</OperatorType>
+        <OperatorSql>&lt;</OperatorSql>
+      </SupportedOperator>
+    </SupportedOperators>
+</SearchClauses>

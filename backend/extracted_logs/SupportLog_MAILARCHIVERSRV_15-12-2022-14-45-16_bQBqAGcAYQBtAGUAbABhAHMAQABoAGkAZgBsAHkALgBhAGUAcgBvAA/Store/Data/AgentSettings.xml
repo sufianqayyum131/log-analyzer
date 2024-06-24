@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<AgentSettings xmlns="http://gfi.com/AgentSettings.xsd">
+  <DalResolver>
+    <AppID>GFI.MAR</AppID>
+    <Path>bin\Store.Core.dll</Path>
+    <Object>Store.Core.DataStorageResolver</Object>
+  </DalResolver>
+</AgentSettings>

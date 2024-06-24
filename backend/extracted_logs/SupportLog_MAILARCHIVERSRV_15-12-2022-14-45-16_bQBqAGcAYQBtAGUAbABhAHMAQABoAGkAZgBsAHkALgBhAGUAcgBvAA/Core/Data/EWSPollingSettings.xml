@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EWSPollingSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ExcludeFolderIDs>
+    <int>16</int>
+    <int>4</int>
+    <int>20</int>
+    <int>9</int>
+    <int>10</int>
+    <int>11</int>
+    <int>12</int>
+    <int>13</int>
+    <int>23</int>
+    <int>25</int>
+    <int>28</int>
+  </ExcludeFolderIDs>
+  <PollingDelay>1</PollingDelay>
+  <ListADUserMailboxes>(&amp;(objectClass=User)(mail=*)(mailnickname=*)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))</ListADUserMailboxes>
+  <ListADUserMailboxesOffice365>(&amp;(objectClass=User)(mail=*))</ListADUserMailboxesOffice365>
+  <ForceOffice365Query>false</ForceOffice365Query>
+  <RefreshFoldersPass>3</RefreshFoldersPass>
+  <RefreshUsersPass>4</RefreshUsersPass>
+  <PollingMailboxDelay>1</PollingMailboxDelay>
+  <MonitorPollingDelay>60</MonitorPollingDelay>
+</EWSPollingSettings>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WCFSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AppName>Store</AppName>
+	<AppPort>-1</AppPort>
+	<WCFServices>
+		<WCFService Enabled="true" URI="AuditRetrieval">
+			<ServiceLibrary>bin\MArc.Store.Audit.dll</ServiceLibrary>
+			<ServiceName>MArc.Store.AuditDataRetrieval</ServiceName>
+			<ContractLibrary>bin\Store.Audit.Base.dll</ContractLibrary>
+			<ContractName>MArc.Store.IAuditDataRetrieval</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="AuditUpload">
+			<ServiceLibrary>bin\MArc.Store.Audit.dll</ServiceLibrary>
+			<ServiceName>MArc.Store.AuditDataUpload</ServiceName>
+			<ContractLibrary>bin\Store.Audit.Base.dll</ContractLibrary>
+			<ContractName>MArc.Store.IAuditDataUpload</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="EmailMessageOperation">
+			<ServiceLibrary>bin\Store.Core.dll</ServiceLibrary>
+			<ServiceName>Store.Core.EmailMessageOperation</ServiceName>
+			<ContractLibrary>bin\Store.Dal.dll</ContractLibrary>
+			<ContractName>Store.Dal.IEmailMessageOperation</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="UpdatesNotification">
+			<ServiceLibrary>bin\Store.Cache.dll</ServiceLibrary>
+			<ServiceName>Store.Cache.UpdatesNotification.Updates</ServiceName>
+			<ContractLibrary>bin\Store.Dal.dll</ContractLibrary>
+			<ContractName>Store.Cache.IUpdates</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="EmailMessageRetrieval">
+			<ServiceLibrary>bin\Store.Core.dll</ServiceLibrary>
+			<ServiceName>Store.Core.EmailMessageRetrieval</ServiceName>
+			<ContractLibrary>bin\Store.Dal.dll</ContractLibrary>
+			<ContractName>Store.Core.IEmailMessageRetrieval</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="ArchiveStoreManager">
+			<ServiceLibrary>bin\Store.ArchiveStoreManager.dll</ServiceLibrary>
+			<ServiceName>Store.ArchiveStoreManager.ASManager</ServiceName>
+			<ContractLibrary>bin\Store.ArchiveStoreManager.Base.dll</ContractLibrary>
+			<ContractName>Store.ArchiveStoreManager.Base.IArchiveStoreManager</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="CoreMessage">
+			<ServiceLibrary>bin\Store.Core.Message.dll</ServiceLibrary>
+			<ServiceName>Store.Core.EmailRetrieval</ServiceName>
+			<ContractLibrary>bin\Store.Dal.dll</ContractLibrary>
+			<ContractName>Store.Core.IEmailRetrieval</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="RetroRetention">
+			<ServiceLibrary>bin\Store.Retention.Retro.dll</ServiceLibrary>
+			<ServiceName>Store.Retention.Retro.RetroRetention</ServiceName>
+			<ContractLibrary>bin\Store.Retention.Base.dll</ContractLibrary>
+			<ContractName>Store.Retention.IRetroRetention</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="Management">
+			<ServiceLibrary>bin\MArc.Store.Management.dll</ServiceLibrary>
+			<ServiceName>MArc.Store.Management</ServiceName>
+			<ContractLibrary>bin\Store.Management.Base.dll</ContractLibrary>
+			<ContractName>MArc.Store.IManagement</ContractName>
+		</WCFService>
+		<WCFService Enabled="true" URI="CalendarRetrieval">
+			<ServiceLibrary>bin\Store.Core.dll</ServiceLibrary>
+			<ServiceName>Store.Core.CalendarRetrieval</ServiceName>
+			<ContractLibrary>bin\Store.Dal.dll</ContractLibrary>
+			<ContractName>Store.Core.ICalendarRetrieval</ContractName>
+		</WCFService>
+	</WCFServices>
+</WCFSettings>

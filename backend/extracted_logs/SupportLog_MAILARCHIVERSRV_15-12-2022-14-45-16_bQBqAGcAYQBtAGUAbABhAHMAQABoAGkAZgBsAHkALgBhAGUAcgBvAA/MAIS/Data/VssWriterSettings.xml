@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VssWriterSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>GFI MailArchiver VSS</Name>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Restore/>
+  <ExcludeFiles>
+    <ExcludeFile>
+      <Path>Temp</Path>
+      <Filename>*.*</Filename>
+      <IncludeSubdirectories>false</IncludeSubdirectories>
+    </ExcludeFile>
+    <ExcludeFile>
+      <Path>DebugLogs</Path>
+      <Filename>*.*</Filename>
+      <IncludeSubdirectories>false</IncludeSubdirectories>
+    </ExcludeFile>
+    <ExcludeFile>
+      <Path>Pickup</Path>
+      <Filename>stop.lck</Filename>
+      <IncludeSubdirectories>false</IncludeSubdirectories>
+    </ExcludeFile>
+  </ExcludeFiles>
+  <Components>
+    <Component>
+      <ComponentType>VSS_CT_FILEGROUP</ComponentType>
+      <Name>Queues</Name>
+      <Description>GFI MailArchiver Import Service Queues</Description>
+      <Selectable>true</Selectable>
+      <SelectableForRestore>true</SelectableForRestore>
+      <OptionalFlags>0</OptionalFlags>
+      <Files>
+        <IncludeFile>
+          <GroupName>Queues</GroupName>
+          <Path>Pickup</Path>
+          <Filename>*.*</Filename>
+          <IncludeSubdirectories>false</IncludeSubdirectories>
+          <BackupTypeMask>3855</BackupTypeMask>
+        </IncludeFile>
+        <IncludeFile>
+          <GroupName>Queues</GroupName>
+          <Path>Queue</Path>
+          <Filename>*.*</Filename>
+          <IncludeSubdirectories>false</IncludeSubdirectories>
+          <BackupTypeMask>3855</BackupTypeMask>
+        </IncludeFile>
+      </Files>
+    </Component>
+  </Components>
+</VssWriterSettings>

@@ -1,0 +1,7 @@
+﻿Date,Time,Milliseconds,Log Level,Process ID,Thread ID,Event Type,Source,Description
+
+2022-12-15,09:55:32,949,1,"#00002254","#000010f4","info   ","regcount","Plug key: SOFTWARE\GFI\MAR15\Attendant\Regcount\"
+2022-12-15,09:55:32,949,1,"#00002254","#000010f4","info   ","regcount","Product id 96"
+2022-12-15,09:55:32,950,1,"#00002254","#000010f4","info   ","regcount","Product GUID {89F1AD4F-FCB4-4E58-985A-0A0BAAAFDC6E}"
+2022-12-15,09:55:32,950,1,"#00002254","#000010f4","info   ","regcount","Count mode 5"
+2022-12-15,09:55:32,967,1,"#00002254","#0000250c","info   ","regcount","Waiting..."

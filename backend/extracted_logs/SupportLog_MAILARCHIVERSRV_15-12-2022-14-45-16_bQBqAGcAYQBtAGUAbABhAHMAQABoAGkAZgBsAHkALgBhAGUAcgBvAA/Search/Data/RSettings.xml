@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<RemotingSettings xmlns="http://gfi.com/ContentSecurity/RemotingSettings.xsd">
+
+  <Component Enabled="true" xmlns="">
+    <Path>bin\MArc.Ada.Authentication.dll</Path>
+    <RemotableObject>MArc.Ada.Security.AdaAuthentication</RemotableObject>
+    <URI>ADA</URI>
+  </Component>
+
+  <Component Enabled="true" xmlns="">
+    <Path>bin\MArc.Ada.Services.dll</Path>
+    <RemotableObject>MArc.Ada.Services.AdaInformation</RemotableObject>
+    <URI>Information</URI>
+  </Component>
+
+  <Component Enabled="true" xmlns="">
+    <Path>bin\GFI.VSS.dll</Path>
+    <RemotableObject>GFI.VSS.VssWriterSubscriber</RemotableObject>
+    <URI>VssWriterSubscriber</URI>
+  </Component>
+
+  <Remoting xmlns=""><ApplicationName>Search</ApplicationName></Remoting>
+
+</RemotingSettings>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Libraries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+    <Component>
+      <Name>SharpZipLib</Name>
+      <Version>N/A</Version>
+      <License>Copyright ©2001-2012 IC#Code</License>
+      <LicFile>SharpZipLib.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>Firebird</Name>
+      <Version>2.7.0.0</Version>
+      <License>Copyright © 2000-2014, Firebird Project</License>
+      <LicFile>Firebird.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>Directory Object Picker - A C# Wrapper</Name>
+      <Version>N/A</Version>
+      <License>© 2006-2014 Microsoft</License>
+      <LicFile>DirectoryObjectPicker.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>Designer centric Wizard control</Name>
+      <Version>N/A</Version>
+      <License>Al Gardner</License>
+      <LicFile>DesignerCentricWizardControl.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>jQuery</Name>
+      <Version>1.6.2</Version>
+      <License>Copyright 2014 The jQuery Foundation</License>
+      <LicFile>JQuery.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>UnRAR source</Name>
+      <Version>N/A</Version>
+      <License>© 2014 win.rar GmbH</License>
+      <LicFile>unrar.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>Full Calendar</Name>
+      <Version>1.6.4</Version>
+      <License>(c) 2013 Adam Shaw</License>
+      <LicFile>FullCalendar.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>Jquery TimePicker</Name>
+      <Version>0.2.9</Version>
+      <License>Copyright 2010-2011, Francois Gelinas</License>
+      <LicFile>jquery_timepicker_addon.txt</LicFile>
+    </Component>
+    <Component>
+      <Name>JS Renderer</Name>
+      <Version>1.0</Version>
+      <License>Copyright (c) 2012 Boris Moore</License>
+      <LicFile>JsRender.txt</LicFile>
+    </Component>
+	<Component>
+      <Name>UI Table Filter</Name>
+      <Version>N/A</Version>
+      <License>Copyright (c) 2008 Greg Weber greg at gregweber</License>
+      <LicFile>uiTableFilter.txt</LicFile>
+    </Component>
+	<Component>
+      <Name>JQuery UI</Name>
+      <Version>1.9.2</Version>
+      <License>Copyright 2014 The jQuery Foundation</License>
+      <LicFile>jquery_ui.txt</LicFile>
+    </Component>
+	<Component>
+      <Name>Pictos Icons</Name>
+      <Version>N/A</Version>
+      <License>Copyright Drew Wilson 2010 - 2012</License>
+      <LicFile>PictosIcons.txt</LicFile>
+    </Component>
+	<Component>
+      <Name>Pictos Fonts</Name>
+      <Version>N/A</Version>
+      <License>Copyright Drew Wilson 2010 - 2012</License>
+      <LicFile>PictosFonts.txt</LicFile>
+    </Component>
+  </Components>
+</Libraries>

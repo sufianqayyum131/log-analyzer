@@ -1,0 +1,1130 @@
+
+==============================================================================
+Services Information
+==============================================================================
+
+NAME = AllJoyn Router Service
+Service Name = AJRouter
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Application Layer Gateway Service
+Service Name = ALG
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Application Host Helper Service
+Service Name = AppHostSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Application Identity
+Service Name = AppIDSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Application Information
+Service Name = Appinfo
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Application Management
+Service Name = AppMgmt
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = App Readiness
+Service Name = AppReadiness
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Microsoft App-V Client
+Service Name = AppVClient
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = AppX Deployment Service (AppXSVC)
+Service Name = AppXSvc
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = ASP.NET State Service
+Service Name = aspnet_state
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Windows Audio Endpoint Builder
+Service Name = AudioEndpointBuilder
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Audio
+Service Name = Audiosrv
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = ActiveX Installer (AxInstSV)
+Service Name = AxInstSV
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Base Filtering Engine
+Service Name = BFE
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Background Intelligent Transfer Service
+Service Name = BITS
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Background Tasks Infrastructure Service
+Service Name = BrokerInfrastructure
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Bluetooth Audio Gateway Service
+Service Name = BTAGService
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = AVCTP service
+Service Name = BthAvctpSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Bluetooth Support Service
+Service Name = bthserv
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Capability Access Manager Service
+Service Name = camsvc
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Connected Devices Platform Service
+Service Name = CDPSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Certificate Propagation
+Service Name = CertPropSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Client License Service (ClipSVC)
+Service Name = ClipSVC
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = COM+ System Application
+Service Name = COMSysApp
+Status = Running
+Type = Win32OwnProcess
+
+NAME = CoreMessaging
+Service Name = CoreMessagingRegistrar
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Cryptographic Services
+Service Name = CryptSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Offline Files
+Service Name = CscService
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Cortex XDR
+Service Name = cyserver
+Status = Running
+Type = Win32OwnProcess
+
+NAME = DCOM Server Process Launcher
+Service Name = DcomLaunch
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Optimize drives
+Service Name = defragsvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Device Association Service
+Service Name = DeviceAssociationService
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Device Install Service
+Service Name = DeviceInstall
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = DevQuery Background Discovery Broker
+Service Name = DevQueryBroker
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = DHCP Client
+Service Name = Dhcp
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Microsoft (R) Diagnostics Hub Standard Collector Service
+Service Name = diagnosticshub.standardcollector.service
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Connected User Experiences and Telemetry
+Service Name = DiagTrack
+Status = Running
+Type = Win32OwnProcess
+
+NAME = Device Management Enrollment Service
+Service Name = DmEnrollmentSvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Device Management Wireless Application Protocol (WAP) Push message Routing Service
+Service Name = dmwappushservice
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = DNS Client
+Service Name = Dnscache
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Delivery Optimization
+Service Name = DoSvc
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Wired AutoConfig
+Service Name = dot3svc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Diagnostic Policy Service
+Service Name = DPS
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Device Setup Manager
+Service Name = DsmSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Data Sharing Service
+Service Name = DsSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Extensible Authentication Protocol
+Service Name = Eaphost
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Encrypting File System (EFS)
+Service Name = EFS
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Embedded Mode
+Service Name = embeddedmode
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Enterprise App Management Service
+Service Name = EntAppSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Event Log
+Service Name = EventLog
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = COM+ Event System
+Service Name = EventSystem
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Function Discovery Provider Host
+Service Name = fdPHost
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Function Discovery Resource Publication
+Service Name = FDResPub
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Font Cache Service
+Service Name = FontCache
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Camera Frame Server
+Service Name = FrameServer
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = ForeScout Remote Inspection Service
+Service Name = fsprocsvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Google Chrome Elevation Service (GoogleChromeElevationService)
+Service Name = GoogleChromeElevationService
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Group Policy Client
+Service Name = gpsvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = GraphicsPerfSvc
+Service Name = GraphicsPerfSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Serviço Google Update (gupdate)
+Service Name = gupdate
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Serviço Google Update (gupdatem)
+Service Name = gupdatem
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Human Interface Device Service
+Service Name = hidserv
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = HV Host Service
+Service Name = HvHost
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Mobile Hotspot Service
+Service Name = icssvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = IKE and AuthIP IPsec Keying Modules
+Service Name = IKEEXT
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Microsoft Store Install Service
+Service Name = InstallService
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = IP Helper
+Service Name = iphlpsvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = CNG Key Isolation
+Service Name = KeyIso
+Status = Running
+Type = Win32ShareProcess
+
+NAME = KDC Proxy Server service (KPS)
+Service Name = KPSSVC
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = KtmRm for Distributed Transaction Coordinator
+Service Name = KtmRm
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Server
+Service Name = LanmanServer
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Workstation
+Service Name = LanmanWorkstation
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Geolocation Service
+Service Name = lfsvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows License Manager Service
+Service Name = LicenseManager
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Link-Layer Topology Discovery Mapper
+Service Name = lltdsvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = TCP/IP NetBIOS Helper
+Service Name = lmhosts
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Local Session Manager
+Service Name = LSM
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Downloaded Maps Manager
+Service Name = MapsBroker
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = GFI Archiver Core Service
+Service Name = MARCore
+Status = Running
+Type = Win32OwnProcess
+
+NAME = GFI Archiver IMAP Service
+Service Name = MARIMAP
+Status = Running
+Type = Win32OwnProcess
+
+NAME = GFI Archiver Import Service
+Service Name = MARMAIS
+Status = Running
+Type = Win32OwnProcess
+
+NAME = GFI Archiver Search Service
+Service Name = MARSearch
+Status = Running
+Type = Win32OwnProcess
+
+NAME = GFI Archiver Store Service
+Service Name = MARStore
+Status = Running
+Type = Win32OwnProcess
+
+NAME = GFI Archiver VSS Writer Service
+Service Name = MARVSS
+Status = Running
+Type = Win32OwnProcess
+
+NAME = Master-8204-ROOTSRV1
+Service Name = Master-8204-ROOTSRV1
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Windows Defender Firewall
+Service Name = mpssvc
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Distributed Transaction Coordinator
+Service Name = MSDTC
+Status = Running
+Type = Win32OwnProcess
+
+NAME = Microsoft iSCSI Initiator Service
+Service Name = MSiSCSI
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Installer
+Service Name = msiserver
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Network Connectivity Assistant
+Service Name = NcaSvc
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Network Connection Broker
+Service Name = NcbService
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Netlogon
+Service Name = Netlogon
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Network Connections
+Service Name = Netman
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Network List Service
+Service Name = netprofm
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Network Setup Service
+Service Name = NetSetupSvc
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Net.Tcp Port Sharing Service
+Service Name = NetTcpPortSharing
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Microsoft Passport Container
+Service Name = NgcCtnrSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Microsoft Passport
+Service Name = NgcSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Network Location Awareness
+Service Name = NlaSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Network Store Interface Service
+Service Name = nsi
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Office 64 Source Engine
+Service Name = ose64
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Program Compatibility Assistant Service
+Service Name = PcaSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Performance Counter DLL Host
+Service Name = PerfHost
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Phone Service
+Service Name = PhoneSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Performance Logs & Alerts
+Service Name = pla
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Plug and Play
+Service Name = PlugPlay
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = IPsec Policy Agent
+Service Name = PolicyAgent
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Power
+Service Name = Power
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Printer Extensions and Notifications
+Service Name = PrintNotify
+Status = Stopped
+Type = Win32ShareProcess, InteractiveProcess
+
+NAME = User Profile Service
+Service Name = ProfSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows PushToInstall Service
+Service Name = PushToInstall
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Quality Windows Audio Video Experience
+Service Name = QWAVE
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Remote Access Auto Connection Manager
+Service Name = RasAuto
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Remote Access Connection Manager
+Service Name = RasMan
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Routing and Remote Access
+Service Name = RemoteAccess
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Remote Registry
+Service Name = RemoteRegistry
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Radio Management Service
+Service Name = RmSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = RPC Endpoint Mapper
+Service Name = RpcEptMapper
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Remote Procedure Call (RPC) Locator
+Service Name = RpcLocator
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Remote Procedure Call (RPC)
+Service Name = RpcSs
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Resultant Set of Policy Provider
+Service Name = RSoPProv
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Special Administration Console Helper
+Service Name = sacsvr
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Security Accounts Manager
+Service Name = SamSs
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Smart Card
+Service Name = SCardSvr
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Smart Card Device Enumeration Service
+Service Name = ScDeviceEnum
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Task Scheduler
+Service Name = Schedule
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Smart Card Removal Policy
+Service Name = SCPolicySvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Secondary Logon
+Service Name = seclogon
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Security Service
+Service Name = SecurityHealthService
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Payments and NFC/SE Manager
+Service Name = SEMgrSvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = System Event Notification Service
+Service Name = SENS
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Defender Advanced Threat Protection Service
+Service Name = Sense
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Sensor Data Service
+Service Name = SensorDataService
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Sensor Service
+Service Name = SensorService
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Sensor Monitoring Service
+Service Name = SensrSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Remote Desktop Configuration
+Service Name = SessionEnv
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = System Guard Runtime Monitor Broker
+Service Name = SgrmBroker
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Internet Connection Sharing (ICS)
+Service Name = SharedAccess
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Shell Hardware Detection
+Service Name = ShellHWDetection
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Shared PC Account Manager
+Service Name = shpamsvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Microsoft Storage Spaces SMP
+Service Name = smphost
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = SNMP Trap
+Service Name = SNMPTRAP
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Print Spooler
+Service Name = Spooler
+Status = Running
+Type = Win32OwnProcess, InteractiveProcess
+
+NAME = Software Protection
+Service Name = sppsvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = SSDP Discovery
+Service Name = SSDPSRV
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = OpenSSH Authentication Agent
+Service Name = ssh-agent
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Secure Socket Tunneling Protocol Service
+Service Name = SstpSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = State Repository Service
+Service Name = StateRepository
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Image Acquisition (WIA)
+Service Name = stisvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Storage Service
+Service Name = StorSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Spot Verifier
+Service Name = svsvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Microsoft Software Shadow Copy Provider
+Service Name = swprv
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = SysMain
+Service Name = SysMain
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = System Events Broker
+Service Name = SystemEventsBroker
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Touch Keyboard and Handwriting Panel Service
+Service Name = TabletInputService
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Telephony
+Service Name = tapisrv
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Remote Desktop Services
+Service Name = TermService
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Themes
+Service Name = Themes
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Storage Tiers Management
+Service Name = TieringEngineService
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Time Broker
+Service Name = TimeBrokerSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Web Account Manager
+Service Name = TokenBroker
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Distributed Link Tracking Client
+Service Name = TrkWks
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Modules Installer
+Service Name = TrustedInstaller
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Auto Time Zone Updater
+Service Name = tzautoupdate
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = User Access Logging Service
+Service Name = UALSVC
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = User Experience Virtualization Service
+Service Name = UevAgentService
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Remote Desktop Services UserMode Port Redirector
+Service Name = UmRdpService
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = UPnP Device Host
+Service Name = upnphost
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = User Manager
+Service Name = UserManager
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Update Orchestrator Service
+Service Name = UsoSvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Credential Manager
+Service Name = VaultSvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Virtual Disk
+Service Name = vds
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = VMware Alias Manager and Ticket Service
+Service Name = VGAuthService
+Status = Running
+Type = Win32OwnProcess
+
+NAME = VMware SVGA Helper Service
+Service Name = VM3DService
+Status = Running
+Type = Win32OwnProcess
+
+NAME = Hyper-V Guest Service Interface
+Service Name = vmicguestinterface
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Hyper-V Heartbeat Service
+Service Name = vmicheartbeat
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Hyper-V Data Exchange Service
+Service Name = vmickvpexchange
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Hyper-V Remote Desktop Virtualization Service
+Service Name = vmicrdv
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Hyper-V Guest Shutdown Service
+Service Name = vmicshutdown
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Hyper-V Time Synchronization Service
+Service Name = vmictimesync
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Hyper-V PowerShell Direct Service
+Service Name = vmicvmsession
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Hyper-V Volume Shadow Copy Requestor
+Service Name = vmicvss
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = VMware Tools
+Service Name = VMTools
+Status = Running
+Type = Win32OwnProcess
+
+NAME = VMware Snapshot Provider
+Service Name = vmvss
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Volume Shadow Copy
+Service Name = VSS
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Windows Time
+Service Name = W32Time
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = W3C Logging Service
+Service Name = w3logsvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = World Wide Web Publishing Service
+Service Name = W3SVC
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Windows Update Medic Service
+Service Name = WaaSMedicSvc
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = WalletService
+Service Name = WalletService
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = WarpJITSvc
+Service Name = WarpJITSvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Windows Process Activation Service
+Service Name = WAS
+Status = Running
+Type = Win32ShareProcess
+
+NAME = Windows Biometric Service
+Service Name = WbioSrvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Connection Manager
+Service Name = Wcmsvc
+Status = Running
+Type = Win32OwnProcess
+
+NAME = Diagnostic Service Host
+Service Name = WdiServiceHost
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Diagnostic System Host
+Service Name = WdiSystemHost
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Defender Antivirus Network Inspection Service
+Service Name = WdNisSvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Windows Event Collector
+Service Name = Wecsvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Encryption Provider Host Service
+Service Name = WEPHOSTSVC
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Problem Reports and Solutions Control Panel Support
+Service Name = wercplsupport
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Error Reporting Service
+Service Name = WerSvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Still Image Acquisition Events
+Service Name = WiaRpc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Windows Defender Antivirus Service
+Service Name = WinDefend
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = WinHTTP Web Proxy Auto-Discovery Service
+Service Name = WinHttpAutoProxySvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Management Instrumentation
+Service Name = Winmgmt
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Remote Management (WS-Management)
+Service Name = WinRM
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Insider Service
+Service Name = wisvc
+Status = Stopped
+Type = Win32ShareProcess
+
+NAME = Microsoft Account Sign-in Assistant
+Service Name = wlidsvc
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = WMI Performance Adapter
+Service Name = wmiApSrv
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Windows Media Player Network Sharing Service
+Service Name = WMPNetworkSvc
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Portable Device Enumerator Service
+Service Name = WPDBusEnum
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Push Notifications System Service
+Service Name = WpnService
+Status = Running
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Windows Search
+Service Name = WSearch
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = Windows Update
+Service Name = wuauserv
+Status = Stopped
+Type = Win32OwnProcess, Win32ShareProcess
+
+NAME = Cortex XDR Health Helper
+Service Name = xdrhealth
+Status = Stopped
+Type = Win32OwnProcess
+
+NAME = CaptureService_22e8a409
+Service Name = CaptureService_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = Clipboard User Service_22e8a409
+Service Name = cbdhsvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = Connected Devices Platform User Service_22e8a409
+Service Name = CDPUserSvc_22e8a409
+Status = Running
+Type = 240
+
+NAME = ConsentUX_22e8a409
+Service Name = ConsentUxUserSvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = DevicePicker_22e8a409
+Service Name = DevicePickerUserSvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = DevicesFlow_22e8a409
+Service Name = DevicesFlowUserSvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = Contact Data_22e8a409
+Service Name = PimIndexMaintenanceSvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = PrintWorkflow_22e8a409
+Service Name = PrintWorkflowUserSvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = User Data Storage_22e8a409
+Service Name = UnistoreSvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = User Data Access_22e8a409
+Service Name = UserDataSvc_22e8a409
+Status = Stopped
+Type = 224
+
+NAME = Windows Push Notifications User Service_22e8a409
+Service Name = WpnUserService_22e8a409
+Status = Running
+Type = 240
+

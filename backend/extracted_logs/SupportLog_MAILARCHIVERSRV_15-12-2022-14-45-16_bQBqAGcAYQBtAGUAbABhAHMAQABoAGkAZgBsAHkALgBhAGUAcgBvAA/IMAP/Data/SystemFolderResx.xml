@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SystemFolderResx>
+  <FolderStrings>
+    <Folder lang="en-US">
+      <Inbox>Inbox</Inbox>
+      <Sent>Sent Items</Sent>
+      <Deleted>Deleted Items</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="de-DE">
+      <Inbox>Posteingang</Inbox>
+      <Sent>Gesendete Elemente</Sent>
+      <Deleted>Gelöschte Elemente</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="es-ES">
+      <Inbox>Bandeja de entrada</Inbox>
+      <Sent>Elementos enviados</Sent>
+      <Deleted>Elementos eliminados</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="ar-SA">
+      <Inbox>علبة الوارد</Inbox>
+      <Sent>العناصر المرسلة</Sent>
+      <Deleted>العناصر المحذوفة</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="cs-CZ">
+      <Inbox>Doručená pošta</Inbox>
+      <Sent>Odeslané položky</Sent>
+      <Deleted>Odstraněné položky</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="fr-FR">
+      <Inbox>Boîte de réception</Inbox>
+      <Sent>Éléments envoyés</Sent>
+      <Deleted>Éléments supprimés</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="he-HE">
+      <Inbox>תיבת דואר נכנס</Inbox>
+      <Sent>פריטים שנשלחו</Sent>
+      <Deleted>פריטים שנמחקו</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="it-IT">
+      <Inbox>Posta in arrivo</Inbox>
+      <Sent>Elementi inviati</Sent>
+      <Deleted>Elementi eliminati</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="ja-JA">
+      <Inbox>受信ボックス</Inbox>
+      <Sent>送信済み項目</Sent>
+      <Deleted>削除済み項目</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="ko-KO">
+      <Inbox>받은 편지함</Inbox>
+      <Sent>보낸 항목</Sent>
+      <Deleted>삭제된 항목</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="nl-NL">
+      <Inbox>Postvak IN</Inbox>
+      <Sent>Verzonden items</Sent>
+      <Deleted>Verwijderde items</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="ru-RU">
+      <Inbox>Входящие</Inbox>
+      <Sent>Отправленные</Sent>
+      <Deleted>Удаленные</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="zh-CHS">
+      <Inbox>收件箱</Inbox>
+      <Sent>已发送项目</Sent>
+      <Deleted>已删除项目</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+    <Folder lang="zh-CHT">
+      <Inbox>收件匣</Inbox>
+      <Sent>已傳送項目</Sent>
+      <Deleted>已刪除項目</Deleted>
+      <Calendar>Calendar</Calendar>
+    </Folder>
+  </FolderStrings>
+  <AllowedDeletedFolders>
+	<Folder FolderName="Trash" />
+	<Folder FolderName="Deleted Messages" />
+  </AllowedDeletedFolders>
+  <Version>1</Version>
+</SystemFolderResx>

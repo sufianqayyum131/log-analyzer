@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComputeHashSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ADD_message_id>true</ADD_message_id>
+  <ADD_sent_dt>true</ADD_sent_dt>
+  <ADD_recv_dt>false</ADD_recv_dt>
+  <ADD_subject>true</ADD_subject>
+  <ADD_sender>false</ADD_sender>
+  <CaseSensitive>false</CaseSensitive>
+  <StartingCharSubject>0</StartingCharSubject>
+</ComputeHashSettings>

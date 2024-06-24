@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<ScheduleSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ImmediateInterval>1</ImmediateInterval>
+	<ScheduledInterval>5</ScheduledInterval>
+	<TryLaterMaxTimes>6</TryLaterMaxTimes>
+	<ArchiveReportEmail>false</ArchiveReportEmail>
+	<MaxThreads>3</MaxThreads>
+	<UseDynamicThreadCount>true</UseDynamicThreadCount>
+	<ReportPlugins>
+		<ReportPlugin ReportName="Communications">
+			<AssemblyName>bin\MArc.MailInsights.Rep.Conn.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.ConnectivityGraph</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="EmailResponsiveness">
+			<AssemblyName>bin\MArc.MailInsights.Rep.EmailRes.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.EmailResponsiveness</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="Storage">
+			<AssemblyName>bin\MArc.MailInsights.Rep.Storage.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.EmailStorage</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="WebMail">
+			<AssemblyName>bin\MArc.MailInsights.Rep.WebMail.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.WebmailUsage</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="InappropriateWords">
+			<AssemblyName>bin\MArc.MailInsights.Rep.InappWords.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.InappropriateWords</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="InactiveAccounts">
+			<AssemblyName>bin\MArc.MailInsights.Rep.InactiveAcc.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.InactiveAccounts</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="InternalSpammers">
+			<AssemblyName>bin\MArc.MailInsights.Rep.IntSpam.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.InternalSpammers</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="OutsideOfficeHours">
+			<AssemblyName>bin\MArc.MailInsights.Rep.OutOffHours.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.OutOffHours</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="DataLeakageDetection">
+			<AssemblyName>bin\MArc.MailInsights.Rep.DataLeak.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.DataLeakageDetection</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="JobSearch">
+			<AssemblyName>bin\MArc.MailInsights.Rep.JobSearch.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.JobSearch</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="PhraseSearch">
+			<AssemblyName>bin\MArc.MailInsights.Rep.PhraseSearch.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.PhraseSearch</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="UserTraffic">
+			<AssemblyName>bin\MArc.MailInsights.Rep.UserTraffic.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.UserTraffic</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="EmailTopics">
+			<AssemblyName>bin\MArc.MailInsights.Rep.EmailTopics.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.EmailTopics</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="EmailPerformanceIndicators">
+			<AssemblyName>bin\MArc.MailInsights.Rep.EmailPerformance.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.EmailPerformance</ObjectName>
+		</ReportPlugin>
+		<ReportPlugin ReportName="LargeEmails">
+			<AssemblyName>bin\MArc.MailInsights.Rep.LargeEmails.dll</AssemblyName>
+			<ObjectName>MArc.MailInsights.Rep.LargeEmails</ObjectName>
+		</ReportPlugin>
+	</ReportPlugins>
+</ScheduleSettings>

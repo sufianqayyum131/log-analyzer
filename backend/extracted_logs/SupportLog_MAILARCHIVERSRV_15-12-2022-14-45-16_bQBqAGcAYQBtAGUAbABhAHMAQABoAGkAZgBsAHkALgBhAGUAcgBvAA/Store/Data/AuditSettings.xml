@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AuditSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Enabled="true">
+  <MaxLength>5242880</MaxLength>
+  <MaxCount>1</MaxCount>
+  <BackUp>true</BackUp>
+  <AuditBuilders>
+    <AuditBuilder Type="Text">
+      <Path>bin\Store.Audit.Providers.dll</Path>
+      <BuilderObject>Store.Audit.TextAuditProvider</BuilderObject>
+    </AuditBuilder>
+    <AuditBuilder Type="MsSql">
+      <Path>bin\Store.Audit.Providers.dll</Path>
+      <BuilderObject>Store.Audit.MsSqlAuditProvider</BuilderObject>
+    </AuditBuilder>
+  </AuditBuilders>
+</AuditSettings>

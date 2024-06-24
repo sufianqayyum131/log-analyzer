@@ -1,0 +1,540 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:443            0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING
+  TermService
+ [svchost.exe]
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:8017           0.0.0.0:0              LISTENING
+ [MArc.Core.exe]
+  TCP    0.0.0.0:8018           0.0.0.0:0              LISTENING
+ [MArc.Store.exe]
+  TCP    0.0.0.0:33221          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+  SessionEnv
+ [svchost.exe]
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING
+ [spoolsv.exe]
+  TCP    0.0.0.0:49692          0.0.0.0:0              LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    0.0.0.0:49695          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:55129          0.0.0.0:0              LISTENING
+  Winmgmt
+ [svchost.exe]
+  TCP    0.0.0.0:57744          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    10.101.10.154:135      10.101.10.78:59586     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:59631     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:59679     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:59740     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:59806     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:59885     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:59936     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60000     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60063     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60127     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60197     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60257     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60312     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60391     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60443     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60519     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60574     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60649     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60710     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60788     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60854     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60926     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:60994     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:61053     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:61108     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:61180     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:61235     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.78:61297     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:50857     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:50895     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:50942     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51001     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51074     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51143     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51190     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51262     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51325     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51388     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51452     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51510     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51571     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51640     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51687     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51755     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51809     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51877     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:51944     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52014     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52081     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52148     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52212     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52270     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52323     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52387     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52444     TIME_WAIT
+  TCP    10.101.10.154:135      10.101.10.99:52502     TIME_WAIT
+  TCP    10.101.10.154:139      0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    10.101.10.154:139      10.40.30.36:49430      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.20:56889      ESTABLISHED
+ Can not obtain ownership information
+  TCP    10.101.10.154:443      10.101.4.21:3410       TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:8297       TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:11971      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:15039      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:15893      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:22414      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:26723      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:32983      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:36298      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:38033      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:40798      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:47526      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:49474      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:49558      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:50450      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:50532      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:50554      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:54009      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:54706      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:55017      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:55228      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:61563      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:62952      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.21:64822      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:1249       TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:1466       TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:4643       TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:8233       TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:8817       TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:13415      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:21762      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:24795      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:25434      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:28446      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:33066      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:33114      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:33170      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:33226      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:40738      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:44685      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:46892      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:57846      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:58204      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:59919      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:60724      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:60788      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:60846      TIME_WAIT
+  TCP    10.101.10.154:443      10.101.4.22:60892      TIME_WAIT
+  TCP    10.101.10.154:445      10.0.0.140:50435       ESTABLISHED
+ Can not obtain ownership information
+  TCP    10.101.10.154:445      10.0.0.140:50441       ESTABLISHED
+ Can not obtain ownership information
+  TCP    10.101.10.154:445      10.0.0.140:50442       ESTABLISHED
+ Can not obtain ownership information
+  TCP    10.101.10.154:445      10.0.0.140:50443       ESTABLISHED
+ Can not obtain ownership information
+  TCP    10.101.10.154:3389     192.168.3.184:58214    ESTABLISHED
+  TermService
+ [svchost.exe]
+  TCP    10.101.10.154:53898    10.101.10.78:3268      ESTABLISHED
+ [MArc.Core.exe]
+  TCP    10.101.10.154:53899    194.38.138.90:443      ESTABLISHED
+ [MArc.UMPolling.EWSPolling.exe]
+  TCP    10.101.10.154:57529    10.101.10.78:3268      ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:57530    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:57630    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:57994    10.101.10.78:3268      ESTABLISHED
+ [MArc.Search.exe]
+  TCP    10.101.10.154:58006    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58007    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58035    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58349    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58351    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58353    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58356    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58360    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58363    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58367    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58382    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58384    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58385    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58387    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58389    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58391    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58414    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58608    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58693    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58738    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58739    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58743    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58744    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58745    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58746    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58751    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58753    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58754    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58755    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58757    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58759    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58760    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58761    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58762    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58765    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58766    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:58771    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58791    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58812    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58813    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:58871    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59092    10.101.10.80:49675     ESTABLISHED
+ [lsass.exe]
+  TCP    10.101.10.154:59122    10.101.10.80:49675     ESTABLISHED
+ [lsass.exe]
+  TCP    10.101.10.154:59133    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59159    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59160    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59161    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59162    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59163    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59164    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59165    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:59166    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59167    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59168    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59169    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59170    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59171    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59172    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59173    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59174    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59175    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59176    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59177    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59178    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:59179    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59180    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59181    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:59182    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59185    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59190    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59191    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59192    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59193    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59197    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59199    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59201    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59203    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:59205    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59223    10.40.21.17:1433       TIME_WAIT
+  TCP    10.101.10.154:59253    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59263    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59303    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59304    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59323    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59324    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59339    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59340    10.40.21.17:1433       ESTABLISHED
+ [MArc.Store.exe]
+  TCP    10.101.10.154:59443    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59448    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59449    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59451    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59452    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59454    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59456    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59457    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59458    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59460    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59461    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59462    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59463    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59465    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59474    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59480    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59483    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59485    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59487    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59488    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59489    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59490    10.101.10.154:8017     TIME_WAIT
+  TCP    10.101.10.154:59491    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59492    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59495    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59496    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59497    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59501    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59502    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59503    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59504    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59505    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59506    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59507    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59508    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59509    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59512    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59513    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59514    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59515    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59516    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59517    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59518    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59521    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59525    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59526    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59527    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59529    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59530    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59531    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59532    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59535    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59536    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59537    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59545    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59548    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59549    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59551    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59552    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59554    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59555    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59556    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59557    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59559    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59562    95.136.27.193:80       SYN_SENT
+  CryptSvc
+ [svchost.exe]
+  TCP    10.101.10.154:59569    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59572    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59574    95.136.27.193:80       SYN_SENT
+ Can not obtain ownership information
+  TCP    10.101.10.154:59576    95.136.27.193:80       SYN_SENT
+ Can not obtain ownership information
+  TCP    10.101.10.154:59586    10.101.10.74:135       ESTABLISHED
+ [LogCollector.exe]
+  TCP    10.101.10.154:59587    10.101.10.74:49669     ESTABLISHED
+ [LogCollector.exe]
+  TCP    10.101.10.154:59589    10.101.10.74:389       ESTABLISHED
+ [LogCollector.exe]
+  TCP    10.101.10.154:59591    10.101.10.156:80       TIME_WAIT
+  TCP    10.101.10.154:59592    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59593    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59594    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59597    10.101.10.156:80       TIME_WAIT
+  TCP    10.101.10.154:59598    10.101.10.74:389       ESTABLISHED
+ [LogCollector.exe]
+  TCP    10.101.10.154:59599    10.101.10.74:389       ESTABLISHED
+ [LogCollector.exe]
+  TCP    10.101.10.154:59600    10.101.10.156:80       TIME_WAIT
+  TCP    10.101.10.154:59602    10.101.10.156:80       TIME_WAIT
+  TCP    10.101.10.154:59603    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59604    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59607    194.38.138.90:443      TIME_WAIT
+  TCP    10.101.10.154:59612    194.38.138.90:443      ESTABLISHED
+ [MArc.UMPolling.EWSPolling.exe]
+  TCP    10.101.10.154:61255    34.102.140.103:443     ESTABLISHED
+ Can not obtain ownership information
+  TCP    10.101.10.154:63491    194.38.138.90:443      ESTABLISHED
+ [MArc.Core.exe]
+  TCP    127.0.0.1:8017         127.0.0.1:59606        ESTABLISHED
+ [MArc.Core.exe]
+  TCP    127.0.0.1:8018         127.0.0.1:59571        ESTABLISHED
+ [MArc.Store.exe]
+  TCP    127.0.0.1:59271        127.0.0.1:8018         TIME_WAIT
+  TCP    127.0.0.1:59446        127.0.0.1:8018         TIME_WAIT
+  TCP    127.0.0.1:59471        127.0.0.1:8017         TIME_WAIT
+  TCP    127.0.0.1:59519        127.0.0.1:8017         TIME_WAIT
+  TCP    127.0.0.1:59520        127.0.0.1:8018         TIME_WAIT
+  TCP    127.0.0.1:59524        127.0.0.1:8018         TIME_WAIT
+  TCP    127.0.0.1:59558        127.0.0.1:8018         TIME_WAIT
+  TCP    127.0.0.1:59571        127.0.0.1:8018         ESTABLISHED
+ [MArc.Store.exe]
+  TCP    127.0.0.1:59606        127.0.0.1:8017         ESTABLISHED
+ [MArc.UMPolling.EWSPolling.exe]
+  TCP    [::]:80                [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:135               [::]:0                 LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:443               [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:445               [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:3389              [::]:0                 LISTENING
+  TermService
+ [svchost.exe]
+  TCP    [::]:5985              [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:47001             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49664             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49665             [::]:0                 LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49666             [::]:0                 LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49667             [::]:0                 LISTENING
+  SessionEnv
+ [svchost.exe]
+  TCP    [::]:49668             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49669             [::]:0                 LISTENING
+ [spoolsv.exe]
+  TCP    [::]:49692             [::]:0                 LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    [::]:49695             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:55129             [::]:0                 LISTENING
+  Winmgmt
+ [svchost.exe]
+  TCP    [::]:57744             [::]:0                 LISTENING
+ [lsass.exe]
+  UDP    0.0.0.0:123            *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:33221          *:*                    
+ Can not obtain ownership information
+  UDP    10.101.10.154:137      *:*                    
+ Can not obtain ownership information
+  UDP    10.101.10.154:138      *:*                    
+ Can not obtain ownership information
+  UDP    127.0.0.1:53438        *:*                    
+ [lsass.exe]
+  UDP    127.0.0.1:55370        *:*                    
+ [MArc.Core.exe]
+  UDP    127.0.0.1:56774        *:*                    
+  NlaSvc
+ [svchost.exe]
+  UDP    127.0.0.1:56892        *:*                    
+ [MArc.UMPolling.EWSPolling.exe]
+  UDP    127.0.0.1:58990        *:*                    
+ [MArc.Imap.exe]
+  UDP    127.0.0.1:64221        *:*                    
+ [MArc.Store.exe]
+  UDP    127.0.0.1:64222        *:*                    
+ [MArc.Search.exe]
+  UDP    127.0.0.1:64444        *:*                    
+ [LogCollector.exe]
+  UDP    127.0.0.1:64605        *:*                    
+  gpsvc
+ [svchost.exe]
+  UDP    [::]:123               *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:4500              *:*                    
+  IKEEXT
+ [svchost.exe]

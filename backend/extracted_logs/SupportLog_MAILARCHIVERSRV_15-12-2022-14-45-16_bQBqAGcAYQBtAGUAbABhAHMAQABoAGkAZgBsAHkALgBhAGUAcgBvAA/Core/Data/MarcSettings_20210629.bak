@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MailArchiverSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.gfi.com/marc">
+	<Archiving ArchiveSource="true" Compress="true" AddAllOwnersOnImport="true">
+		<ManualArchiving Enabled="false">
+		</ManualArchiving>
+		<JournalArchiving Mode="Full">
+			<FullArchiving>
+				<Scope ArchiveIncoming="true" ArchiveOutgoing="true" ArchiveInternal="true"/>
+				<Exclude Mode="None">
+					<Entries/>
+				</Exclude>
+			</FullArchiving>
+		</JournalArchiving>
+	</Archiving>
+	<Security>
+		<FullAccessGroup/>
+		<AccessGroups/>
+		<KeyType>Default</KeyType>
+		<Delete Status="Off"/>
+	</Security>
+	<DataSources>
+		<Locations/>
+	</DataSources>
+	<Licensing>
+		<Key></Key>
+		<EvalSent>2010-03-22T16:48:12.5693353+01:00</EvalSent>
+		<EvalExpiredSent>2010-03-22T16:48:12.5693353+01:00</EvalExpiredSent>
+		<FAAKey>AKYnOsdCCexIufwHUBFQ69X2k35lHSOeYtv0Ci0moiW8aPTT6n2TXPXISdtdHlVhB7cGLM2UwyQuBOsVh9rOtvzCT3kLjSZVRJgCdAQBwnE=</FAAKey>
+		<FAAEvalSent>2010-03-22T16:48:12.5693353+01:00</FAAEvalSent>
+	</Licensing>
+	<Other>
+		<SmtpServer>localhost</SmtpServer>
+		<SmtpPort>25</SmtpPort>
+		<AdminEmail>administrator@gfimalta.com</AdminEmail>
+		<ProductVersion>15.1</ProductVersion>
+		<ProductBuild>20201124</ProductBuild>
+		<UseSSL>false</UseSSL>
+		<DisplayOCSection>true</DisplayOCSection>
+		<DisplayImapClientSection>true</DisplayImapClientSection>
+		<DisplayManualArchivingOLPluginSection>false</DisplayManualArchivingOLPluginSection>
+		<DisplayFaxMakerSearchSection>true</DisplayFaxMakerSearchSection>
+		<PostInstallConfiguration>0</PostInstallConfiguration>
+		<CheckForUpdates Enabled="true">
+			<ProxySettings UseProxy="false">
+				<ProxyAddress></ProxyAddress>
+				<ProxyPortNumber>80</ProxyPortNumber>
+				<Authentication AuthenticationRequired="false">
+					<Login></Login>
+					<Password>BscSDq+5OXL+W+TtiD8ZFA==</Password>
+				</Authentication>
+			</ProxySettings>
+		</CheckForUpdates>
+		<FileFilters Name="[5BD89A68-6E89-4894-91D7-59EEB2BF36C9]" Filter="*.jpg,*.jpeg,*.exif,*.tiff,*.raw,*.png,*.gif,*.bmp,*.ppm,*.pgm,*.pbm,*.pnm,*.webp,*.tga,*.pcx,*.img,*.psd,*.psp,*.cgm,*.svg,*.ai,*.cdr,*.eps,*.hvif,*.odg,*.pict,*.pgml,*.swf,*.vml,*.wmf,*.emf,*.xps,*.pns,*.jps"/>
+		<FileFilters Name="[EF4474A5-B6C0-427A-B08F-3F2697CB568A]" Filter="*.acl,*.csv,*.cwk,*.doc*,*.dot*,*.htm*,*.hwp*,*.lwp,*.mcw,*.odm,*.odt,*.ott,*.pages,*.pdax,*.pdf,*.rtf,*.rpt,*.stw,*.sxw,*.tex,*.txt,*.wpd,*.wps,*.wpt,*.wrd,*.wri,*.xhtml,*.xml,*.xps,*.xls,*.xlsx,*.ppt,*.pptx,*.mdb,*.accdb,*.accde"/>
+		<FileFilters Name="[D27A0FC4-9853-4C7F-8BDB-3BFC61E5F344]" Filter="*.aiff,*.au,*.cdda,*.raw,*.wav,*.flac,*.la,*.m4a,*.ape,*.wma,*.mp2,*.mp3,*.ogg,*.ra,*.rm,*.ots,*.swa,*.vox,*.voc,*.mid,*.psf,*.mod,*.asf,*.asx,*.m3u,*.ram,*.xspf,*.omf,*.cel"/>
+		<FileFilters Name="[0D444102-6B92-4FE0-8672-4DD418010725]" Filter="*.aaf,*.3gp,*.gif,*.asf,*.avchd,*.avi,*.dat,*.flv,*.mpeg,*.mpg,*.fla,*.flr,*.sol,*.m4v,*.mkv,*.mov,*.mpe,*.mxf,*.ogg,*.rm,*.swf,*.wmv"/>
+		<HashType>UTC</HashType>
+	</Other>
+	<Store>
+		<Databases/>
+	</Store>
+	<Retention Enabled="true">
+		<Policies>
+			<Policy Name="Default Retention Policy" Enabled="true" MessageType="Eml">
+				<Rules>
+					<Rule Guid="af470a77-abde-41e6-9702-a7c6cc2b0944" Enabled="true">
+						<Priority>0</Priority>
+						<Description>MS Exchange 2013 Health Probing Emails</Description>
+						<Actions>
+							<Action Type="Delete" Db="" TagValue="" RetentionPeriod="0"/>
+						</Actions>
+						<Condition xsi:type="ComplexCondition" Type="Complex" Operand="AND">
+							<Conditions>
+								<Condition xsi:type="ComplexCondition" Type="Complex" Operand="OR">
+									<Conditions>
+										<Condition xsi:type="SimpleCondition" Type="Simple">
+											<Property>Subject</Property>
+											<Operator>LIKE</Operator>
+											<Value>MBTSubmission/StoreDriverSubmission/*</Value>
+										</Condition>
+										<Condition xsi:type="SimpleCondition" Type="Simple">
+											<Property>Subject</Property>
+											<Operator>LIKE</Operator>
+											<Value>Inbound proxy probe</Value>
+										</Condition>
+										<Condition xsi:type="SimpleCondition" Type="Simple">
+											<Property>Subject</Property>
+											<Operator>LIKE</Operator>
+											<Value>Client submission probe</Value>
+										</Condition>
+										<Condition xsi:type="SimpleCondition" Type="Simple">
+											<Property>Subject</Property>
+											<Operator>LIKE</Operator>
+											<Value>MapiSubmitLAMProbe</Value>
+										</Condition>
+									</Conditions>
+								</Condition>
+								<Condition xsi:type="ComplexCondition" Type="Complex" Operand="OR">
+									<Conditions>
+										<Condition xsi:type="SimpleCondition" Type="Simple">
+											<Property>Sender</Property>
+											<Operator>LIKE</Operator>
+											<Value>HealthMailbox*@*</Value>
+										</Condition>
+										<Condition xsi:type="SimpleCondition" Type="Simple">
+											<Property>Sender</Property>
+											<Operator>LIKE</Operator>
+											<Value>inboundproxy@inboundproxy.com</Value>
+										</Condition>
+										<Condition xsi:type="SimpleCondition" Type="Simple">
+											<Property>Sender</Property>
+											<Operator>LIKE</Operator>
+											<Value>inboundproxy@contoso.com</Value>
+										</Condition>
+									</Conditions>
+								</Condition>
+							</Conditions>
+						</Condition>
+					</Rule>
+				</Rules>
+			</Policy>
+		</Policies>
+		<OnHold>false</OnHold>
+	</Retention>
+	<Search>
+		<Indexes/>
+		<SchedulerConfiguration>
+			<Method>Immediate</Method>
+			<IntervalInMs>10000</IntervalInMs>
+			<DailyTime>0</DailyTime>
+		</SchedulerConfiguration>
+		<WordBreakerSettings>
+			<EnableAutoWordBreaker>true</EnableAutoWordBreaker>
+			<LocaleID>1033</LocaleID>
+			<MaxTokenSize>50</MaxTokenSize>
+			<EnableBuiltInWordBreaker>true</EnableBuiltInWordBreaker>
+		</WordBreakerSettings>
+	</Search>
+	<Auditing Enabled="false">
+		<Databases/>
+		<PrimaryAuditDatabase Guid=""/>
+	</Auditing>
+	<UMPolling Enabled="false">
+		<Username/>
+		<Password>BscSDq+5OXL+W+TtiD8ZFA==</Password>
+		<ExcludeFolderRules/>
+		<ConnectionType>MAPI</ConnectionType>
+	</UMPolling>
+	<ArchiveStoreProfiles>
+		<BackEndServers/>
+		<Profiles/>
+		<OtherSettings>
+			<RollOverPeriod>BiMonthly</RollOverPeriod>
+			<Pattern>[1:yyyy MMM][2: - MMM]</Pattern>
+		</OtherSettings>
+	</ArchiveStoreProfiles>
+	<Imap Enabled="false">
+		<PortNumber>44143</PortNumber>
+		<NetworkInterface>0.0.0.0</NetworkInterface>
+		<ServerUrl></ServerUrl>
+		<MaxMonthsToFetch>12</MaxMonthsToFetch>
+		<SSL Enabled="false">
+			<Certificate/>
+			<Password/>
+			<ForceSSL>false</ForceSSL>
+		</SSL>
+	</Imap>
+</MailArchiverSettings>

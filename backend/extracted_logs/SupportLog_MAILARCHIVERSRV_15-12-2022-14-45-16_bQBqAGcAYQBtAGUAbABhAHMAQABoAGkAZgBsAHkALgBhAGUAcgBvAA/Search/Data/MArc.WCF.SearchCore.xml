@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WCFSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AppName>SearchCore</AppName>
+  <AppPort>-1</AppPort>
+  <WCFServices>
+    <WCFService Enabled="true" URI="SearchCore" IdleTimeoutInfinite="true">
+      <ServiceLibrary>bin\MArc.Search.Core.dll</ServiceLibrary>
+      <ServiceName>MArc.Search.Core.IndexManager</ServiceName>
+      <ContractLibrary>bin\MArc.Search.Query.dll</ContractLibrary>
+      <ContractName>MArc.Search.Query.IIndexManager</ContractName>
+    </WCFService>
+  </WCFServices>
+</WCFSettings>

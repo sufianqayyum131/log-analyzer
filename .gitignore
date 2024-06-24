@@ -1,0 +1,42 @@
+# General
+*.log
+*.lock
+*.DS_Store
+*.env
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.egg-info/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React
+/build
+/public/static
+/.cache
+.DS_Store
+
+# Flask
+*.pyc
+instance/
+.webassets-cache
+
+# VS Code
+.vscode/
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db

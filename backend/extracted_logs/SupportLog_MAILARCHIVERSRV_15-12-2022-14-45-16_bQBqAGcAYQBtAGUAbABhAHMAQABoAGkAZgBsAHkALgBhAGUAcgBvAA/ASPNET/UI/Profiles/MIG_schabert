@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProfileBag xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <userFolders>
+    <folders />
+  </userFolders>
+  <ResultsPP>25</ResultsPP>
+  <LastMailArchiverIAccessed>0</LastMailArchiverIAccessed>
+  <Language>en</Language>
+  <TimeZone>GMT Standard Time</TimeZone>
+  <MailboxUserNameStyle>full</MailboxUserNameStyle>
+  <AuditingReportDateTimeFormat>long</AuditingReportDateTimeFormat>
+  <BrowseXMLSelectedUsers />
+  <ShowPostInstallWizard>true</ShowPostInstallWizard>
+  <SavedSearchString>
+            &lt;SavedSearchesHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="7.01"&gt;
+              &lt;SavedSearches&gt;
+                &lt;SFHolder FolderId="ff05aa7e-fe25-43c6-b23c-8f4d3b17277c" FolderName="LargeEmail"&gt;
+                  &lt;Query&gt;
+                    &lt;RestrictSearch&gt;true&lt;/RestrictSearch&gt;
+                    &lt;DBIds&gt;
+                      &lt;string&gt;*&lt;/string&gt;
+                    &lt;/DBIds&gt;
+                    &lt;Fields /&gt;
+                    &lt;RangeFields&gt;
+                      &lt;rangefieldopt&gt;
+                        &lt;fieldname&gt;msgsize&lt;/fieldname&gt;
+                        &lt;start&gt;1049600&lt;/start&gt;
+                        &lt;end&gt;9223372036854775807&lt;/end&gt;
+                        &lt;boolop&gt;AND&lt;/boolop&gt;
+                      &lt;/rangefieldopt&gt;
+                    &lt;/RangeFields&gt;
+                    &lt;HitOffset&gt;0&lt;/HitOffset&gt;
+                    &lt;HitsPerPage&gt;100&lt;/HitsPerPage&gt;
+                    &lt;Sort&gt;false&lt;/Sort&gt;
+                    &lt;SortField /&gt;
+                    &lt;Ascending&gt;true&lt;/Ascending&gt;
+                  &lt;/Query&gt;
+                  &lt;Owners&gt;
+                    &lt;string&gt;me&lt;/string&gt;
+                  &lt;/Owners&gt;
+                  &lt;Folders /&gt;
+                  &lt;FoldersExclude /&gt;
+                &lt;/SFHolder&gt;
+                &lt;SFHolder FolderId="ff05aa7e-fe25-43c6-b23c-8f4d3b17277b" FolderName="Last30days"&gt;
+                  &lt;Query&gt;
+                    &lt;RestrictSearch&gt;true&lt;/RestrictSearch&gt;
+                    &lt;DBIds&gt;
+                      &lt;string&gt;*&lt;/string&gt;
+                    &lt;/DBIds&gt;
+                    &lt;Fields&gt;
+                      &lt;fieldopt&gt;
+                        &lt;fieldname&gt;attachmentandbody&lt;/fieldname&gt;
+                        &lt;query&gt;xfirstword&lt;/query&gt;
+                        &lt;boolop&gt;AND&lt;/boolop&gt;
+                      &lt;/fieldopt&gt;
+                    &lt;/Fields&gt;
+                    &lt;RangeFields /&gt;
+                    &lt;HitOffset&gt;0&lt;/HitOffset&gt;
+                    &lt;HitsPerPage&gt;100&lt;/HitsPerPage&gt;
+                    &lt;Sort&gt;false&lt;/Sort&gt;
+                    &lt;SortField /&gt;
+                    &lt;Ascending&gt;true&lt;/Ascending&gt;
+                  &lt;/Query&gt;
+                  &lt;FlexiDate&gt;month&lt;/FlexiDate&gt;
+                  &lt;Owners&gt;
+                    &lt;string&gt;me&lt;/string&gt;
+                  &lt;/Owners&gt;
+                  &lt;Folders /&gt;
+                  &lt;FoldersExclude /&gt;
+                &lt;/SFHolder&gt;
+                &lt;SFHolder FolderId="ff05aa7e-fe25-43c6-b23c-8f4d3b17277a" FolderName="Last7days"&gt;
+                  &lt;Query&gt;
+                    &lt;RestrictSearch&gt;true&lt;/RestrictSearch&gt;
+                    &lt;DBIds&gt;
+                      &lt;string&gt;*&lt;/string&gt;
+                    &lt;/DBIds&gt;
+                    &lt;Fields&gt;
+                      &lt;fieldopt&gt;
+                        &lt;fieldname&gt;attachmentandbody&lt;/fieldname&gt;
+                        &lt;query&gt;xfirstword&lt;/query&gt;
+                        &lt;boolop&gt;AND&lt;/boolop&gt;
+                      &lt;/fieldopt&gt;
+                    &lt;/Fields&gt;
+                    &lt;RangeFields /&gt;
+                    &lt;HitOffset&gt;0&lt;/HitOffset&gt;
+                    &lt;HitsPerPage&gt;100&lt;/HitsPerPage&gt;
+                    &lt;Sort&gt;false&lt;/Sort&gt;
+                    &lt;SortField /&gt;
+                    &lt;Ascending&gt;true&lt;/Ascending&gt;
+                  &lt;/Query&gt;
+                  &lt;FlexiDate&gt;week&lt;/FlexiDate&gt;
+                  &lt;Owners&gt;
+                    &lt;string&gt;me&lt;/string&gt;
+                  &lt;/Owners&gt;
+                  &lt;Folders /&gt;
+                  &lt;FoldersExclude /&gt;
+                &lt;/SFHolder&gt;
+              &lt;/SavedSearches&gt;
+            &lt;/SavedSearchesHolder&gt;
+        </SavedSearchString>
+  <SavedMailInsightsOptions />
+  <ADSearchType />
+  <ConfigPageMode>tile</ConfigPageMode>
+  <MailBoxList>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;MailboxUserHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="7.01"&gt;
+  &lt;MailboxUsers&gt;
+    &lt;MailboxUser DisplayName="Sara Chabert (MIG\schabert)" UserGuid="7373bdf3c94cbb4f962f723646a48331" Deletable="false" Accessable="true" /&gt;
+  &lt;/MailboxUsers&gt;
+&lt;/MailboxUserHolder&gt;</MailBoxList>
+</ProfileBag>

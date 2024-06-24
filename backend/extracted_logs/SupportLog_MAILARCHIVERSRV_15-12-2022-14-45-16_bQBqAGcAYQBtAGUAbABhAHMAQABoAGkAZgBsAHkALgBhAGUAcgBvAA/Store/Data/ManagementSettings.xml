@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ManagementSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Databases>
+    <DB Type="MsSql" MetaEngine="None">
+      <AssemblyName>bin\Store.Management.Providers.dll</AssemblyName>
+      <ObjectName>Store.Management.MsSqlSchemaProvider</ObjectName>
+      <AppIDProviders>
+        <Provider Type="GFI.MAR">
+          <Schemas>
+            <Schema MessageType="Eml" SchemaName="" SchemaGuid ="0526523C-8E06-44ae-906A-790F2BD7D4ED" SchemaType="NotSupported" VersionTable="gfi_dle_db_version" Product="MArc2" Version="0"/>
+            <Schema MessageType="Eml" SchemaName="" SchemaGuid="GFI.MAR4.MsSqlFS.Eml" SchemaType="NotSupported" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSqlFS.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="" SchemaGuid="GFI.MAR4.MsSqlFS.IM" SchemaType="NotSupported" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSqlFS.IM" Version="0"/>
+            <Schema MessageType="MArc3" SchemaName="Schema\MARMsSqlMArc3.xml" SchemaGuid ="8F58E9CA-31C2-4528-8CE9-93CD07927522" SchemaType="Upgradable" VersionTable="gfi_marc_dle_db_version" Product="MArc3" Version="6"/>
+            <Schema MessageType="Eml" SchemaName="Schema\MARMsSqlEml.xml" SchemaGuid="GFI.MAR4.MsSql.Eml" SchemaType="Upgradable" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSql.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="Schema\MARMsSqlIm.xml" SchemaGuid="GFI.MAR4.MsSql.IM" SchemaType="Upgradable" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSql.IM" Version="0"/>
+            <Schema MessageType="Audit" SchemaName="Schema\MARMsSqlAudit.xml" SchemaGuid="GFI.MAR4.MsSql.Audit" SchemaType="Upgradable" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSql.Audit" Version="0"/>
+          </Schemas>
+        </Provider>
+      </AppIDProviders>
+    </DB>
+    <DB Type="FireBird" MetaEngine="None">
+      <AssemblyName>bin\Store.Management.Providers.dll</AssemblyName>
+      <ObjectName>Store.Management.FBSchemaProvider</ObjectName>
+      <AppIDProviders>
+        <Provider Type="GFI.MAR">
+          <Schemas>
+            <Schema MessageType="Eml" SchemaName="" SchemaGuid ="GFI.MAR4.FireBirdFS.Eml" SchemaType="NotSupported" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBirdFS.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="" SchemaGuid ="GFI.MAR4.FireBirdFS.IM" SchemaType="NotSupported" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBirdFS.IM" Version="0"/>
+            <Schema MessageType="Eml" SchemaName="Schema\MARFBEml.xml" SchemaGuid="GFI.MAR4.FireBird.Eml" SchemaType="Upgradable" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBird.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="Schema\MARFBIm.xml" SchemaGuid="GFI.MAR4.FireBird.IM" SchemaType="Upgradable" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBird.IM" Version="0"/>
+          </Schemas>
+        </Provider>
+      </AppIDProviders>
+    </DB>
+    <DB Type="FS" MetaEngine="MsSql">
+      <AssemblyName>bin\Store.Management.Providers.dll</AssemblyName>
+      <ObjectName>Store.Management.FSSchemaProvider</ObjectName>
+      <AppIDProviders>
+        <Provider Type="GFI.MAR">
+          <Schemas>
+            <Schema MessageType="Eml" SchemaName="" SchemaGuid ="0526523C-8E06-44ae-906A-790F2BD7D4ED" SchemaType="NotSupported" VersionTable="gfi_dle_db_version" Product="MArc2" Version="0"/>
+            <Schema MessageType="Eml" SchemaName="Schema\MARMsSqlEml.xml" SchemaGuid="GFI.MAR4.MsSqlFS.Eml" SchemaType="Upgradable" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSqlFS.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="Schema\MARMsSqlIm.xml" SchemaGuid="GFI.MAR4.MsSqlFS.IM" SchemaType="Upgradable" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSqlFS.IM" Version="0"/>
+            <Schema MessageType="MArc3" SchemaName="Schema\MARMsSqlMArc3.xml" SchemaGuid ="8F58E9CA-31C2-4528-8CE9-93CD07927522" SchemaType="MArc3" VersionTable="gfi_marc_dle_db_version" Product="MArc3" Version="6"/>
+            <Schema MessageType="Eml" SchemaName="" SchemaGuid="GFI.MAR4.MsSql.Eml" SchemaType="NotSupported" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSql.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="" SchemaGuid="GFI.MAR4.MsSql.IM" SchemaType="NotSupported" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSql.IM" Version="0"/>
+            <Schema MessageType="Audit" SchemaName="Schema\MARMsSqlAudit.xml" SchemaGuid="GFI.MAR4.MsSql.Audit" SchemaType="Upgradable" VersionTable="gfi_marc_dle_db_version" Product="MArc4.MsSql.Audit" Version="0"/>
+          </Schemas>
+        </Provider>
+      </AppIDProviders>
+    </DB>
+    <DB Type="FS" MetaEngine="FireBird">
+      <AssemblyName>bin\Store.Management.Providers.dll</AssemblyName>
+      <ObjectName>Store.Management.FSSchemaProvider</ObjectName>
+      <AppIDProviders>
+        <Provider Type="GFI.MAR">
+          <Schemas>
+            <Schema MessageType="Eml" SchemaName="" SchemaGuid ="GFI.MAR4.FireBird.Eml" SchemaType="NotSupported" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBird.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="" SchemaGuid ="GFI.MAR4.FireBird.IM" SchemaType="NotSupported" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBird.IM" Version="0"/>
+            <Schema MessageType="Eml" SchemaName="Schema\MARFBEml.xml" SchemaGuid="GFI.MAR4.FireBirdFS.Eml" SchemaType="Upgradable" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBirdFS.Eml" Version="0"/>
+            <Schema MessageType="IM" SchemaName="Schema\MARFBIm.xml" SchemaGuid="GFI.MAR4.FireBirdFS.IM" SchemaType="Upgradable" VersionTable="GFI_MARC_DLE_DB_VERSION" Product="MArc4.FireBirdFS.IM" Version="0"/>
+          </Schemas>
+        </Provider>
+      </AppIDProviders>
+    </DB>
+  </Databases>
+</ManagementSettings>

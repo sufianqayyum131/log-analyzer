@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MailArchiverLocalization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gfi.com/marc">
+  <Cultures>
+    <Language>
+      <Name>en</Name>
+    </Language>
+    <Language>
+      <Name>de</Name>
+    </Language>
+    <Language>
+      <Name>fr</Name>
+    </Language>
+    <Language>
+      <Name>it</Name>
+    </Language>
+    <Language>
+      <Name>es</Name>
+    </Language>
+    <Language>
+      <Name>ru</Name>
+    </Language>
+    <Language>
+      <Name>cs</Name>
+    </Language>
+    <Language>
+      <Name>nl</Name>
+    </Language>
+    <Language>
+      <Name>ja</Name>
+    </Language>
+    <Language>
+      <Name>zh-CHS</Name>
+    </Language>
+    <Language>
+      <Name>zh-CHT</Name>
+    </Language>
+    <Language>
+      <Name>ko</Name>
+    </Language>
+    <Language>
+      <Name>he</Name>
+    </Language>
+    <Language>
+      <Name>ar</Name>
+    </Language>
+  </Cultures>
+</MailArchiverLocalization>

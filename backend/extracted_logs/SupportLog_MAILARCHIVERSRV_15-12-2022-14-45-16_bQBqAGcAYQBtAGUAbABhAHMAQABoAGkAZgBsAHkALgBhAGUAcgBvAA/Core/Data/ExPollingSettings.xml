@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExPollingSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <excludeFolderIDs>
+    <int>16</int>
+    <int>4</int>
+    <int>20</int>
+    <int>9</int>
+    <int>10</int>
+    <int>11</int>
+    <int>12</int>
+    <int>13</int>
+    <int>23</int>
+    <int>25</int>
+    <int>28</int>
+  </excludeFolderIDs>
+  <PollingDelay>1</PollingDelay>
+  <sqlRestriction>((MessageClass = 'IPM.Note') OR (MessageClass = 'Report.IPM.Note.IPNRN'))</sqlRestriction>
+  <listADUserMailboxes>(&amp;(objectClass=User)(mail=*)(mailnickname=*)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))</listADUserMailboxes>
+  <RefreshFoldersPass>3</RefreshFoldersPass>
+  <RefreshUsersPass>2</RefreshUsersPass>
+  <PollingMailboxDelay>1</PollingMailboxDelay>
+  <DeleteExchangePerflog>true</DeleteExchangePerflog>
+  <MonitorPollingDelay>120</MonitorPollingDelay>
+</ExPollingSettings>

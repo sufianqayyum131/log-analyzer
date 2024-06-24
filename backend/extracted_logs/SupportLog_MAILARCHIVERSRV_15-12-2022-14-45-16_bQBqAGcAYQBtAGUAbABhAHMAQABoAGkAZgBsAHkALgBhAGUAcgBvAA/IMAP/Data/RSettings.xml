@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<RemotingSettings xmlns="http://gfi.com/ContentSecurity/RemotingSettings.xsd">
+ 
+  <Component Enabled="true" xmlns="">
+    <Path>bin\GFI.VSS.dll</Path>
+    <RemotableObject>GFI.VSS.VssWriterSubscriber</RemotableObject>
+    <URI>VssWriterSubscriber</URI>
+  </Component>
+  
+  <Remoting xmlns=""><ApplicationName>Imap</ApplicationName></Remoting>
+
+</RemotingSettings>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WCFSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AppName>Search</AppName>
+  <AppPort>-1</AppPort>
+  <WCFServices>
+    <WCFService Enabled="true" URI="SearchFacade" IdleTimeoutInfinite="true">
+      <ServiceLibrary>bin\MArc.Search.Query.Facade.dll</ServiceLibrary>
+      <ServiceName>MArc.Search.Query.Facade.SearchFacade</ServiceName>
+      <ContractLibrary>bin\MArc.Search.Query.dll</ContractLibrary>
+      <ContractName>MArc.Search.Query.ISearchEngine</ContractName>
+    </WCFService>
+  </WCFServices>
+</WCFSettings>

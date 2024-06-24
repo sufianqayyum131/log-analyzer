@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<AttendantSettings xmlns="http://gfi.com/ContentSecurity/AttendantSettings.xsd">
+  <PlugIn Enabled="true" xmlns="">
+    <Path>bin\MArc.MAIS.Remoting.exe</Path>
+    <StartupObject>ML.Remoting.Host</StartupObject>
+  </PlugIn>
+
+ <PlugIn Enabled="true" xmlns="">
+   <Path>bin\MArc.Enveloping.exe</Path>
+   <StartupObject>MArc.Enveloping.Enveloper</StartupObject>
+ </PlugIn>
+
+ <PlugIn Enabled="true" xmlns="">
+  <Path>bin\MArc.Logging.Scheduler.exe</Path>
+   <StartupObject>MArc.Logging.LogScheduler</StartupObject>
+ </PlugIn>
+
+ <PlugIn Enabled="true" xmlns="">
+   <Path>bin\MAIS.Supervisor.dll</Path>
+   <StartupObject>MAIS.Supervisor.Monitor</StartupObject>
+ </PlugIn>
+
+ <PlugIn Enabled="true" xmlns="">
+   <Path>bin\MAIS.BixPlugin.dll</Path>
+   <StartupObject>MAIS.BixPlugin</StartupObject>
+ </PlugIn>
+
+ <PlugIn Enabled="true" xmlns="">
+   <Path>bin\MAIS.Configuration.dll</Path>
+   <StartupObject>MAIS.Configuration.Config</StartupObject>
+ </PlugIn>
+
+</AttendantSettings>
