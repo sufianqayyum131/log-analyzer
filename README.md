@@ -8,7 +8,7 @@ Log Analyzer is a web-based application that allows users to upload ZIP files co
 
 - **Upload and Extract Logs:** Upload ZIP files containing logs and extract them for analysis.
 - **Analyze Logs:** Parse and display errors, warnings, and critical messages from log files in an organized table.
-- **Query with GPT-3.5:** Input queries to get suggestions on which log files to check for specific issues.
+- **Query with GPT:** Input queries to get suggestions on which log files to check for specific issues.
 - **Frequent Errors:** Display frequent errors found across all log files.
 - **Filter and Search Logs:** Filter and search logs based on error type, message, and date.
 
